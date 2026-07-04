@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="482" height="1152" viewBox="0 0 482 1152">
+<rect x="0" y="0" width="482" height="1152" rx="0" fill="#f6f6f6" stroke="none"/>
+<rect x="12" y="12" width="458" height="1118" rx="3" fill="#797979" stroke="none"/>
+<rect x="13" y="13" width="456" height="28" rx="3" fill="#ffffff" stroke="none"/>
+<text x="20" y="30" fill="#000000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12">cFos HTTP Reader 4fach 1.0</text>
+<text x="462" y="30" fill="#707070" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">19100830</text>
+<rect x="408" y="17" width="35" height="16" rx="2" fill="#ff8000" stroke="none"/>
+<text x="426" y="29" fill="#000000" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9">EXEC</text>
+<rect x="13" y="40" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="55" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E1</text>
+<text x="72" y="55" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Host/IP</text>
+<rect x="211" y="40" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="55" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="410" y="55" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">OK</text>
+<text x="466" y="55" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A1 &gt;</text>
+<rect x="13" y="62" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="77" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E2</text>
+<text x="72" y="77" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Port</text>
+<rect x="211" y="62" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="77" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10">80</text>
+<text x="410" y="77" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">HTTP-Code</text>
+<text x="466" y="77" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A2 &gt;</text>
+<rect x="13" y="84" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="99" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E3</text>
+<text x="72" y="99" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">HTTPS 0/1</text>
+<rect x="211" y="84" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="99" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10">0</text>
+<text x="410" y="99" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Fehlertext</text>
+<text x="466" y="99" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A3 &gt;</text>
+<rect x="13" y="106" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="121" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E4</text>
+<text x="72" y="121" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">User</text>
+<rect x="211" y="106" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="121" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="410" y="121" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Timestamp</text>
+<text x="466" y="121" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A4 &gt;</text>
+<rect x="13" y="128" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="143" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E5</text>
+<text x="72" y="143" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Passwort</text>
+<rect x="211" y="128" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="143" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="410" y="143" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">RAW JSON</text>
+<text x="466" y="143" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A5 &gt;</text>
+<rect x="13" y="150" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="165" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E6</text>
+<text x="72" y="165" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Aktiv 1/0</text>
+<rect x="211" y="150" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="165" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10">1</text>
+<text x="410" y="165" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Anzahl Devices</text>
+<text x="466" y="165" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A6 &gt;</text>
+<rect x="13" y="172" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="187" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E7</text>
+<text x="72" y="187" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Intervall Sekunden</text>
+<rect x="211" y="172" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="187" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10">10</text>
+<text x="410" y="187" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Gefundene IDs</text>
+<text x="466" y="187" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A7 &gt;</text>
+<rect x="13" y="194" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="209" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E8</text>
+<text x="72" y="209" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">ID1 (z.B. E1/M4)</text>
+<rect x="211" y="194" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="209" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="410" y="209" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status Text</text>
+<text x="466" y="209" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A8 &gt;</text>
+<rect x="13" y="216" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="231" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E9</text>
+<text x="72" y="231" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">ID2</text>
+<rect x="211" y="216" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="231" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<rect x="13" y="238" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="253" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E10</text>
+<text x="72" y="253" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">ID3</text>
+<rect x="211" y="238" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="253" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="410" y="253" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Gefunden 1</text>
+<text x="466" y="253" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A10 &gt;</text>
+<rect x="13" y="260" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="275" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E11</text>
+<text x="72" y="275" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">ID4</text>
+<rect x="211" y="260" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="275" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="410" y="275" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">ID 1</text>
+<text x="466" y="275" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A11 &gt;</text>
+<rect x="13" y="282" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="297" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E12</text>
+<text x="72" y="297" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Debug RAW 0/1</text>
+<rect x="211" y="282" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="297" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10">0</text>
+<text x="410" y="297" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Name 1</text>
+<text x="466" y="297" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A12 &gt;</text>
+<rect x="13" y="304" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="319" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E13</text>
+<text x="72" y="319" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">SSL pruefen 1/0</text>
+<rect x="211" y="304" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="319" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10">0</text>
+<text x="410" y="319" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Modell 1</text>
+<text x="466" y="319" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A13 &gt;</text>
+<rect x="13" y="326" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="341" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Leistung W 1</text>
+<text x="466" y="341" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A14 &gt;</text>
+<rect x="13" y="348" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="363" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Energie Wh 1</text>
+<text x="466" y="363" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A15 &gt;</text>
+<rect x="13" y="370" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="385" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Strom mA 1</text>
+<text x="466" y="385" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A16 &gt;</text>
+<rect x="13" y="392" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="407" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status 1</text>
+<text x="466" y="407" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A17 &gt;</text>
+<rect x="13" y="414" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="429" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Aktiv/Freigegeben 1</text>
+<text x="466" y="429" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A18 &gt;</text>
+<rect x="13" y="436" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="451" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Device JSON 1</text>
+<text x="466" y="451" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A19 &gt;</text>
+<rect x="13" y="458" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="473" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Gefunden 2</text>
+<text x="466" y="473" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A20 &gt;</text>
+<rect x="13" y="480" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="495" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">ID 2</text>
+<text x="466" y="495" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A21 &gt;</text>
+<rect x="13" y="502" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="517" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Name 2</text>
+<text x="466" y="517" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A22 &gt;</text>
+<rect x="13" y="524" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="539" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Modell 2</text>
+<text x="466" y="539" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A23 &gt;</text>
+<rect x="13" y="546" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="561" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Leistung W 2</text>
+<text x="466" y="561" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A24 &gt;</text>
+<rect x="13" y="568" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="583" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Energie Wh 2</text>
+<text x="466" y="583" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A25 &gt;</text>
+<rect x="13" y="590" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="605" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Strom mA 2</text>
+<text x="466" y="605" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A26 &gt;</text>
+<rect x="13" y="612" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="627" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status 2</text>
+<text x="466" y="627" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A27 &gt;</text>
+<rect x="13" y="634" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="649" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Aktiv/Freigegeben 2</text>
+<text x="466" y="649" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A28 &gt;</text>
+<rect x="13" y="656" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="671" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Device JSON 2</text>
+<text x="466" y="671" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A29 &gt;</text>
+<rect x="13" y="678" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="693" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Gefunden 3</text>
+<text x="466" y="693" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A30 &gt;</text>
+<rect x="13" y="700" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="715" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">ID 3</text>
+<text x="466" y="715" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A31 &gt;</text>
+<rect x="13" y="722" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="737" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Name 3</text>
+<text x="466" y="737" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A32 &gt;</text>
+<rect x="13" y="744" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="759" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Modell 3</text>
+<text x="466" y="759" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A33 &gt;</text>
+<rect x="13" y="766" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="781" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Leistung W 3</text>
+<text x="466" y="781" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A34 &gt;</text>
+<rect x="13" y="788" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="803" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Energie Wh 3</text>
+<text x="466" y="803" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A35 &gt;</text>
+<rect x="13" y="810" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="825" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Strom mA 3</text>
+<text x="466" y="825" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A36 &gt;</text>
+<rect x="13" y="832" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="847" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status 3</text>
+<text x="466" y="847" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A37 &gt;</text>
+<rect x="13" y="854" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="869" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Aktiv/Freigegeben 3</text>
+<text x="466" y="869" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A38 &gt;</text>
+<rect x="13" y="876" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="891" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Device JSON 3</text>
+<text x="466" y="891" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A39 &gt;</text>
+<rect x="13" y="898" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="913" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Gefunden 4</text>
+<text x="466" y="913" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A40 &gt;</text>
+<rect x="13" y="920" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="935" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">ID 4</text>
+<text x="466" y="935" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A41 &gt;</text>
+<rect x="13" y="942" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="957" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Name 4</text>
+<text x="466" y="957" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A42 &gt;</text>
+<rect x="13" y="964" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="979" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Modell 4</text>
+<text x="466" y="979" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A43 &gt;</text>
+<rect x="13" y="986" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="1001" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Leistung W 4</text>
+<text x="466" y="1001" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A44 &gt;</text>
+<rect x="13" y="1008" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="1023" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Energie Wh 4</text>
+<text x="466" y="1023" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A45 &gt;</text>
+<rect x="13" y="1030" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="1045" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Strom mA 4</text>
+<text x="466" y="1045" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A46 &gt;</text>
+<rect x="13" y="1052" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="1067" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status 4</text>
+<text x="466" y="1067" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A47 &gt;</text>
+<rect x="13" y="1074" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="1089" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Aktiv/Freigegeben 4</text>
+<text x="466" y="1089" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A48 &gt;</text>
+<rect x="13" y="1096" width="456" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="410" y="1111" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Device JSON 4</text>
+<text x="466" y="1111" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A49 &gt;</text>
+<text x="15" y="1136" fill="#606060" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="9">E:13 A:48 V:4</text>
+</svg>

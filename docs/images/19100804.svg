@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="591" height="734" viewBox="0 0 591 734">
+<rect x="0" y="0" width="591" height="734" rx="0" fill="#f6f6f6" stroke="none"/>
+<rect x="12" y="12" width="567" height="700" rx="3" fill="#797979" stroke="none"/>
+<rect x="13" y="13" width="565" height="28" rx="3" fill="#ffffff" stroke="none"/>
+<text x="20" y="30" fill="#000000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12">cFos HTTP Reader 1.0</text>
+<text x="571" y="30" fill="#707070" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">19100804</text>
+<rect x="517" y="17" width="35" height="16" rx="2" fill="#ff8000" stroke="none"/>
+<text x="535" y="29" fill="#000000" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9">EXEC</text>
+<rect x="13" y="40" width="565" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="55" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E1</text>
+<text x="72" y="55" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Host/IP</text>
+<rect x="211" y="40" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="55" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="519" y="55" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">OK</text>
+<text x="575" y="55" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A1 &gt;</text>
+<rect x="13" y="62" width="565" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="77" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E2</text>
+<text x="72" y="77" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Port</text>
+<rect x="211" y="62" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="77" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="519" y="77" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">HTTP-Code</text>
+<text x="575" y="77" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A2 &gt;</text>
+<rect x="13" y="84" width="565" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="99" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E3</text>
+<text x="72" y="99" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">HTTPS 0/1</text>
+<rect x="211" y="84" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="99" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="519" y="99" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Fehlertext</text>
+<text x="575" y="99" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A3 &gt;</text>
+<rect x="13" y="106" width="565" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="121" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E4</text>
+<text x="72" y="121" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">User</text>
+<rect x="211" y="106" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="121" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="519" y="121" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Timestamp</text>
+<text x="575" y="121" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A4 &gt;</text>
+<rect x="13" y="128" width="565" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="143" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E5</text>
+<text x="72" y="143" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Passwort</text>
+<rect x="211" y="128" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="143" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="519" y="143" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">RAW JSON</text>
+<text x="575" y="143" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A5 &gt;</text>
+<rect x="13" y="150" width="565" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="165" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E6</text>
+<text x="72" y="165" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Aktiv 1/0</text>
+<rect x="211" y="150" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="165" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<rect x="13" y="172" width="565" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="187" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E7</text>
+<text x="72" y="187" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Intervall Sekunden</text>
+<rect x="211" y="172" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="187" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<rect x="13" y="194" width="565" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="209" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E8</text>
+<text x="72" y="209" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">SSL pruefen 1/0</text>
+<rect x="211" y="194" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="209" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10">0</text>
+<rect x="13" y="216" width="565" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="231" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E9</text>
+<text x="72" y="231" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Debug 0/1</text>
+<rect x="211" y="216" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="231" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<rect x="13" y="238" width="565" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="519" y="253" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Lastmanagement aktiv</text>
+<text x="575" y="253" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A10 &gt;</text>
+<rect x="13" y="260" width="565" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="519" y="275" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Maximaler Gesamtstrom (mA)</text>
+<text x="575" y="275" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A11 &gt;</text>
+<rect x="13" y="282" width="565" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="519" y="297" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Reservestrom (mA)</text>
+<text x="575" y="297" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A12 &gt;</text>
+<rect x="13" y="304" width="565" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="519" y="319" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Überziehungsstrom (mA)</text>
+<text x="575" y="319" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A13 &gt;</text>
+<rect x="13" y="326" width="565" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="519" y="341" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Maximaler Gesamtstrom für Wallboxe...</text>
+<text x="575" y="341" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A14 &gt;</text>
+<rect x="13" y="348" width="565" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="519" y="363" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Aktuelle Wallbox-Leistung gesamt (W)</text>
+<text x="575" y="363" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A15 &gt;</text>
+<rect x="13" y="370" width="565" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="519" y="385" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Verfügbare Wallbox-Leistung (W)</text>
+<text x="575" y="385" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A16 &gt;</text>
+<rect x="13" y="392" width="565" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="519" y="407" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Zykluszeit (ms)</text>
+<text x="575" y="407" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A17 &gt;</text>
+<rect x="13" y="414" width="565" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="519" y="429" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Version</text>
+<text x="575" y="429" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A18 &gt;</text>
+<rect x="13" y="436" width="565" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="519" y="451" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Shareware-Modus aktiv</text>
+<text x="575" y="451" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A19 &gt;</text>
+<rect x="13" y="458" width="565" height="21" rx="0" fill="#303030" stroke="none"/>
+<rect x="13" y="480" width="565" height="21" rx="0" fill="#303030" stroke="none"/>
+<rect x="13" y="502" width="565" height="21" rx="0" fill="#303030" stroke="none"/>
+<rect x="13" y="524" width="565" height="21" rx="0" fill="#303030" stroke="none"/>
+<rect x="13" y="546" width="565" height="21" rx="0" fill="#303030" stroke="none"/>
+<rect x="13" y="568" width="565" height="21" rx="0" fill="#303030" stroke="none"/>
+<rect x="13" y="590" width="565" height="21" rx="0" fill="#303030" stroke="none"/>
+<rect x="13" y="612" width="565" height="21" rx="0" fill="#303030" stroke="none"/>
+<rect x="13" y="634" width="565" height="21" rx="0" fill="#303030" stroke="none"/>
+<rect x="13" y="656" width="565" height="21" rx="0" fill="#303030" stroke="none"/>
+<rect x="13" y="678" width="565" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="519" y="693" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Wallbox Out (JSON)</text>
+<text x="575" y="693" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A30 &gt;</text>
+<text x="15" y="718" fill="#606060" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="9">E:9 A:16 V:4</text>
+</svg>

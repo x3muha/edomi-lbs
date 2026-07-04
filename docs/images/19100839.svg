@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="565" height="1020" viewBox="0 0 565 1020">
+<rect x="0" y="0" width="565" height="1020" rx="0" fill="#f6f6f6" stroke="none"/>
+<rect x="12" y="12" width="541" height="986" rx="3" fill="#797979" stroke="none"/>
+<rect x="13" y="13" width="539" height="28" rx="3" fill="#ffffff" stroke="none"/>
+<text x="20" y="30" fill="#000000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12">ESPHome Midea X3 Klima Status und Steuerung 1.0</text>
+<text x="545" y="30" fill="#707070" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">19100839</text>
+<rect x="491" y="17" width="35" height="16" rx="2" fill="#ff8000" stroke="none"/>
+<text x="509" y="29" fill="#000000" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9">EXEC</text>
+<rect x="13" y="40" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="55" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E1</text>
+<text x="72" y="55" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">ESPHome URL/IP</text>
+<rect x="238" y="40" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="55" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10">http...</text>
+<text x="493" y="55" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">OK 1/0</text>
+<text x="549" y="55" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A1 &gt;</text>
+<rect x="13" y="62" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="77" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E2</text>
+<text x="72" y="77" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">User</text>
+<rect x="238" y="62" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="77" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="493" y="77" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Fehlertext</text>
+<text x="549" y="77" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A2 &gt;</text>
+<rect x="13" y="84" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="99" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E3</text>
+<text x="72" y="99" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Passwort</text>
+<rect x="238" y="84" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="99" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="493" y="99" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status Text</text>
+<text x="549" y="99" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A3 &gt;</text>
+<rect x="13" y="106" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="121" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E4</text>
+<text x="72" y="121" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Lesen/Refresh</text>
+<rect x="238" y="106" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="121" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="493" y="121" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">HTTP Status letzter Request</text>
+<text x="549" y="121" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A4 &gt;</text>
+<rect x="13" y="128" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="143" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E5</text>
+<text x="72" y="143" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Aktiv 1/0</text>
+<rect x="238" y="128" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="143" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10">1</text>
+<text x="493" y="143" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Visu JSON</text>
+<text x="549" y="143" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A5 &gt;</text>
+<rect x="13" y="150" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="165" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E6</text>
+<text x="72" y="165" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Zyklus Sekunden</text>
+<rect x="238" y="150" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="165" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10">30</text>
+<text x="493" y="165" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Debug JSON</text>
+<text x="549" y="165" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A6 &gt;</text>
+<rect x="13" y="172" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="187" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E7</text>
+<text x="72" y="187" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">HTTP Timeout Sekunden</text>
+<rect x="238" y="172" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="187" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10">5</text>
+<text x="493" y="187" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Zeitstempel</text>
+<text x="549" y="187" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A7 &gt;</text>
+<rect x="13" y="194" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="209" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E8</text>
+<text x="72" y="209" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">SSL pruefen 1/0</text>
+<rect x="238" y="194" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="209" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10">0</text>
+<text x="493" y="209" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Last Command</text>
+<text x="549" y="209" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A8 &gt;</text>
+<rect x="13" y="216" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="231" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E9</text>
+<text x="72" y="231" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Debug 1/0</text>
+<rect x="238" y="216" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="231" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10">0</text>
+<text x="493" y="231" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Command Status</text>
+<text x="549" y="231" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A9 &gt;</text>
+<rect x="13" y="238" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="253" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E10</text>
+<text x="72" y="253" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Solltemperatur C</text>
+<rect x="238" y="238" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="253" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="493" y="253" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status Solltemperatur C</text>
+<text x="549" y="253" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A10 &gt;</text>
+<rect x="13" y="260" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="275" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E11</text>
+<text x="72" y="275" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Kuehlen 1/0</text>
+<rect x="238" y="260" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="275" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="493" y="275" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status Kuehlen 1/0</text>
+<text x="549" y="275" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A11 &gt;</text>
+<rect x="13" y="282" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="297" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E12</text>
+<text x="72" y="297" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Heizen 1/0</text>
+<rect x="238" y="282" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="297" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="493" y="297" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status Heizen 1/0</text>
+<text x="549" y="297" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A12 &gt;</text>
+<rect x="13" y="304" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="319" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E13</text>
+<text x="72" y="319" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Auto 1/0</text>
+<rect x="238" y="304" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="319" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="493" y="319" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status Auto 1/0</text>
+<text x="549" y="319" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A13 &gt;</text>
+<rect x="13" y="326" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="341" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E14</text>
+<text x="72" y="341" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Entfeuchten 1/0</text>
+<rect x="238" y="326" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="341" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="493" y="341" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status Entfeuchten 1/0</text>
+<text x="549" y="341" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A14 &gt;</text>
+<rect x="13" y="348" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="363" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E15</text>
+<text x="72" y="363" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Lueften 1/0</text>
+<rect x="238" y="348" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="363" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="493" y="363" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status Lueften 1/0</text>
+<text x="549" y="363" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A15 &gt;</text>
+<rect x="13" y="370" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="385" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E16</text>
+<text x="72" y="385" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Aus 1/0</text>
+<rect x="238" y="370" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="385" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="493" y="385" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status Aus 1/0</text>
+<text x="549" y="385" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A16 &gt;</text>
+<rect x="13" y="392" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="407" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E17</text>
+<text x="72" y="407" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Boost 1/0</text>
+<rect x="238" y="392" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="407" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="493" y="407" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status Boost 1/0</text>
+<text x="549" y="407" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A17 &gt;</text>
+<rect x="13" y="414" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="429" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E18</text>
+<text x="72" y="429" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Eco 1/0</text>
+<rect x="238" y="414" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="429" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="493" y="429" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status Eco 1/0</text>
+<text x="549" y="429" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A18 &gt;</text>
+<rect x="13" y="436" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="451" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E19</text>
+<text x="72" y="451" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Normal 1/0</text>
+<rect x="238" y="436" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="451" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="493" y="451" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status Normal 1/0</text>
+<text x="549" y="451" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A19 &gt;</text>
+<rect x="13" y="458" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="473" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E20</text>
+<text x="72" y="473" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Fan Auto 1/0</text>
+<rect x="238" y="458" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="473" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="493" y="473" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status Fan Auto 1/0</text>
+<text x="549" y="473" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A20 &gt;</text>
+<rect x="13" y="480" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="495" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E21</text>
+<text x="72" y="495" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Fan Low 1/0</text>
+<rect x="238" y="480" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="495" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="493" y="495" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status Fan Low 1/0</text>
+<text x="549" y="495" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A21 &gt;</text>
+<rect x="13" y="502" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="517" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E22</text>
+<text x="72" y="517" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Fan Medium 1/0</text>
+<rect x="238" y="502" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="517" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="493" y="517" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status Fan Medium 1/0</text>
+<text x="549" y="517" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A22 &gt;</text>
+<rect x="13" y="524" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="539" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E23</text>
+<text x="72" y="539" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Fan High 1/0</text>
+<rect x="238" y="524" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="539" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="493" y="539" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status Fan High 1/0</text>
+<text x="549" y="539" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A23 &gt;</text>
+<rect x="13" y="546" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="561" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E24</text>
+<text x="72" y="561" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Swing Aus 1/0</text>
+<rect x="238" y="546" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="561" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="493" y="561" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status Swing Aus 1/0</text>
+<text x="549" y="561" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A24 &gt;</text>
+<rect x="13" y="568" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="583" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E25</text>
+<text x="72" y="583" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Swing Vertikal 1/0</text>
+<rect x="238" y="568" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="583" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="493" y="583" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status Swing Vertikal 1/0</text>
+<text x="549" y="583" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A25 &gt;</text>
+<rect x="13" y="590" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="605" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E26</text>
+<text x="72" y="605" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Swing Horizontal 1/0</text>
+<rect x="238" y="590" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="605" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="493" y="605" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status Swing Horizontal 1/0</text>
+<text x="549" y="605" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A26 &gt;</text>
+<rect x="13" y="612" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="627" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E27</text>
+<text x="72" y="627" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Swing Beides 1/0</text>
+<rect x="238" y="612" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="627" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="493" y="627" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status Swing Beides 1/0</text>
+<text x="549" y="627" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A27 &gt;</text>
+<rect x="13" y="634" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="649" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E28</text>
+<text x="72" y="649" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Fresh 1/0</text>
+<rect x="238" y="634" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="649" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="493" y="649" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status Fresh 1/0</text>
+<text x="549" y="649" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A28 &gt;</text>
+<rect x="13" y="656" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="671" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E29</text>
+<text x="72" y="671" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Clean 1/0</text>
+<rect x="238" y="656" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="671" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="493" y="671" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status Clean 1/0</text>
+<text x="549" y="671" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A29 &gt;</text>
+<rect x="13" y="678" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="693" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E30</text>
+<text x="72" y="693" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Clean Reset 1/0</text>
+<rect x="238" y="678" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="693" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="493" y="693" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Clean State</text>
+<text x="549" y="693" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A30 &gt;</text>
+<rect x="13" y="700" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="715" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E31</text>
+<text x="72" y="715" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Clean Restore 1/0</text>
+<rect x="238" y="700" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="715" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="493" y="715" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status Clean Restore 1/0</text>
+<text x="549" y="715" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A31 &gt;</text>
+<rect x="13" y="722" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="737" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E32</text>
+<text x="72" y="737" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Clean Dauer Minuten</text>
+<rect x="238" y="722" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="737" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="493" y="737" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status Clean Dauer Minuten</text>
+<text x="549" y="737" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A32 &gt;</text>
+<rect x="13" y="744" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="493" y="759" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status Anlage An 1/0</text>
+<text x="549" y="759" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A33 &gt;</text>
+<rect x="13" y="766" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="493" y="781" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Modus Text</text>
+<text x="549" y="781" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A34 &gt;</text>
+<rect x="13" y="788" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="493" y="803" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Fan Mode Text</text>
+<text x="549" y="803" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A35 &gt;</text>
+<rect x="13" y="810" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="493" y="825" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Preset Text</text>
+<text x="549" y="825" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A36 &gt;</text>
+<rect x="13" y="832" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="493" y="847" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Swing Mode Text</text>
+<text x="549" y="847" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A37 &gt;</text>
+<rect x="13" y="854" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="493" y="869" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Isttemperatur C</text>
+<text x="549" y="869" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A38 &gt;</text>
+<rect x="13" y="876" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="493" y="891" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Clean Rest Minuten</text>
+<text x="549" y="891" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A39 &gt;</text>
+<rect x="13" y="898" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="913" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E40</text>
+<text x="72" y="913" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Power Toggle 1/0</text>
+<rect x="238" y="898" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="913" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="493" y="913" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Last Control Source</text>
+<text x="549" y="913" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A40 &gt;</text>
+<rect x="13" y="920" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="935" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E41</text>
+<text x="72" y="935" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Display Toggle 1/0</text>
+<rect x="238" y="920" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="935" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="493" y="935" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">WiFi Signal dBm</text>
+<text x="549" y="935" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A41 &gt;</text>
+<rect x="13" y="942" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="957" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E42</text>
+<text x="72" y="957" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Swing Step 1/0</text>
+<rect x="238" y="942" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="957" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="493" y="957" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Uptime Sekunden</text>
+<text x="549" y="957" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A42 &gt;</text>
+<rect x="13" y="964" width="539" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="979" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E43</text>
+<text x="72" y="979" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Follow Me 24C Test 1/0</text>
+<rect x="238" y="964" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="979" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="493" y="979" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Letzter HTTP Status</text>
+<text x="549" y="979" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A43 &gt;</text>
+<text x="15" y="1004" fill="#606060" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="9">E:36 A:43 V:3</text>
+</svg>

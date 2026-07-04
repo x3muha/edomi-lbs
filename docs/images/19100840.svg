@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="502" height="250" viewBox="0 0 502 250">
+<rect x="0" y="0" width="502" height="250" rx="0" fill="#f6f6f6" stroke="none"/>
+<rect x="12" y="12" width="478" height="216" rx="3" fill="#797979" stroke="none"/>
+<rect x="13" y="13" width="476" height="28" rx="3" fill="#ffffff" stroke="none"/>
+<text x="20" y="30" fill="#000000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12">KNX DPT 20.105 HVAC Control Mode Mapper 1.0</text>
+<text x="482" y="30" fill="#707070" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">19100840</text>
+<rect x="13" y="40" width="476" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="55" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E1</text>
+<text x="72" y="55" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Betriebsart Setzen</text>
+<rect x="238" y="40" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="55" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="430" y="55" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Betriebsart Status</text>
+<text x="486" y="55" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A1 &gt;</text>
+<rect x="13" y="62" width="476" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="77" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E2</text>
+<text x="72" y="77" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Auto Status 1/0</text>
+<rect x="238" y="62" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="77" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="430" y="77" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Auto Setzen</text>
+<text x="486" y="77" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A2 &gt;</text>
+<rect x="13" y="84" width="476" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="99" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E3</text>
+<text x="72" y="99" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Heizen Status 1/0</text>
+<rect x="238" y="84" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="99" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="430" y="99" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Heizen Setzen</text>
+<text x="486" y="99" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A3 &gt;</text>
+<rect x="13" y="106" width="476" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="121" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E4</text>
+<text x="72" y="121" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Kühlen Status 1/0</text>
+<rect x="238" y="106" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="121" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="430" y="121" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Kühlen Setzen</text>
+<text x="486" y="121" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A4 &gt;</text>
+<rect x="13" y="128" width="476" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="143" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E5</text>
+<text x="72" y="143" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Lüften Status 1/0</text>
+<rect x="238" y="128" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="143" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="430" y="143" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Lüften Setzen</text>
+<text x="486" y="143" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A5 &gt;</text>
+<rect x="13" y="150" width="476" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="165" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E6</text>
+<text x="72" y="165" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Entfeuchten Status 1/0</text>
+<rect x="238" y="150" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="265" y="165" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="430" y="165" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Entfeuchten Setzen</text>
+<text x="486" y="165" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A6 &gt;</text>
+<rect x="13" y="172" width="476" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="430" y="187" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status Text</text>
+<text x="486" y="187" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A7 &gt;</text>
+<rect x="13" y="194" width="476" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="430" y="209" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status gültig 1/0</text>
+<text x="486" y="209" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A8 &gt;</text>
+<text x="15" y="234" fill="#606060" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="9">E:6 A:8 V:0</text>
+</svg>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="551" height="734" viewBox="0 0 551 734">
+<rect x="0" y="0" width="551" height="734" rx="0" fill="#f6f6f6" stroke="none"/>
+<rect x="12" y="12" width="527" height="700" rx="3" fill="#797979" stroke="none"/>
+<rect x="13" y="13" width="525" height="28" rx="3" fill="#ffffff" stroke="none"/>
+<text x="20" y="30" fill="#000000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12">cFos Wallbox Decoder 1.0</text>
+<text x="531" y="30" fill="#707070" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">19100805</text>
+<rect x="13" y="40" width="525" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="55" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E1</text>
+<text x="72" y="55" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Wallbox In (JSON)</text>
+<rect x="224" y="40" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="251" y="55" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="479" y="55" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">OK</text>
+<text x="535" y="55" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A1 &gt;</text>
+<rect x="13" y="62" width="525" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="77" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E2</text>
+<text x="72" y="77" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Wallbox-ID (z.B. E1)</text>
+<rect x="224" y="62" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="251" y="77" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="479" y="77" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Fehlertext</text>
+<text x="535" y="77" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A2 &gt;</text>
+<rect x="13" y="84" width="525" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="479" y="99" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Geräte-ID</text>
+<text x="535" y="99" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A3 &gt;</text>
+<rect x="13" y="106" width="525" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="479" y="121" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Name</text>
+<text x="535" y="121" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A4 &gt;</text>
+<rect x="13" y="128" width="525" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="479" y="143" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Gewählte Wallbox (JSON)</text>
+<text x="535" y="143" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A5 &gt;</text>
+<rect x="13" y="150" width="525" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="479" y="165" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status (Rohwert)</text>
+<text x="535" y="165" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A6 &gt;</text>
+<rect x="13" y="172" width="525" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="479" y="187" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Fahrzeug eingesteckt</text>
+<text x="535" y="187" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A7 &gt;</text>
+<rect x="13" y="194" width="525" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="479" y="209" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Lädt</text>
+<text x="535" y="209" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A8 &gt;</text>
+<rect x="13" y="216" width="525" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="479" y="231" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Fehler vorhanden</text>
+<text x="535" y="231" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A9 &gt;</text>
+<rect x="13" y="238" width="525" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="479" y="253" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Offline</text>
+<text x="535" y="253" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A10 &gt;</text>
+<rect x="13" y="260" width="525" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="479" y="275" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Gerät aktiviert</text>
+<text x="535" y="275" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A11 &gt;</text>
+<rect x="13" y="282" width="525" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="479" y="297" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Laden freigegeben</text>
+<text x="535" y="297" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A12 &gt;</text>
+<rect x="13" y="304" width="525" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="479" y="319" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Pausiert</text>
+<text x="535" y="319" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A13 &gt;</text>
+<rect x="13" y="326" width="525" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="479" y="341" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Aktuelle Ladeleistung (W)</text>
+<text x="535" y="341" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A14 &gt;</text>
+<rect x="13" y="348" width="525" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="479" y="363" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Gesamtenergie (Wh)</text>
+<text x="535" y="363" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A15 &gt;</text>
+<rect x="13" y="370" width="525" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="479" y="385" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Minimalstrom (mA)</text>
+<text x="535" y="385" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A16 &gt;</text>
+<rect x="13" y="392" width="525" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="479" y="407" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Maximalstrom (mA)</text>
+<text x="535" y="407" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A17 &gt;</text>
+<rect x="13" y="414" width="525" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="479" y="429" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Phasen (Bitmaske)</text>
+<text x="535" y="429" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A18 &gt;</text>
+<rect x="13" y="436" width="525" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="479" y="451" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Phase L1 aktiv</text>
+<text x="535" y="451" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A19 &gt;</text>
+<rect x="13" y="458" width="525" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="479" y="473" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Phase L2 aktiv</text>
+<text x="535" y="473" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A20 &gt;</text>
+<rect x="13" y="480" width="525" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="479" y="495" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Phase L3 aktiv</text>
+<text x="535" y="495" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A21 &gt;</text>
+<rect x="13" y="502" width="525" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="479" y="517" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Einphasig</text>
+<text x="535" y="517" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A22 &gt;</text>
+<rect x="13" y="524" width="525" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="479" y="539" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Dreiphasig</text>
+<text x="535" y="539" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A23 &gt;</text>
+<rect x="13" y="546" width="525" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="479" y="561" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Kommunikationsfehler</text>
+<text x="535" y="561" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A24 &gt;</text>
+<rect x="13" y="568" width="525" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="479" y="583" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Kommunikationsfehler Anzahl</text>
+<text x="535" y="583" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A25 &gt;</text>
+<rect x="13" y="590" width="525" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="479" y="605" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Letzter Fehlertext</text>
+<text x="535" y="605" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A26 &gt;</text>
+<rect x="13" y="612" width="525" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="479" y="627" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Modell</text>
+<text x="535" y="627" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A27 &gt;</text>
+<rect x="13" y="634" width="525" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="479" y="649" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Priorität</text>
+<text x="535" y="649" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A28 &gt;</text>
+<rect x="13" y="656" width="525" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="479" y="671" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Firmware-Version</text>
+<text x="535" y="671" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A29 &gt;</text>
+<rect x="13" y="678" width="525" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="479" y="693" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Seriennummer</text>
+<text x="535" y="693" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A30 &gt;</text>
+<text x="15" y="718" fill="#606060" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="9">E:2 A:30 V:1</text>
+</svg>

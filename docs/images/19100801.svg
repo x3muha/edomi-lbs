@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="510" height="228" viewBox="0 0 510 228">
+<rect x="0" y="0" width="510" height="228" rx="0" fill="#f6f6f6" stroke="none"/>
+<rect x="12" y="12" width="486" height="194" rx="3" fill="#797979" stroke="none"/>
+<rect x="13" y="13" width="484" height="28" rx="3" fill="#ffffff" stroke="none"/>
+<text x="20" y="30" fill="#000000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12">P-Regler 1.0</text>
+<text x="490" y="30" fill="#707070" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">19100801</text>
+<rect x="13" y="40" width="484" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="55" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E1</text>
+<text x="72" y="55" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Sollwert</text>
+<rect x="211" y="40" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="55" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="438" y="55" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Differenz Soll-Ist</text>
+<text x="494" y="55" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A1 &gt;</text>
+<rect x="13" y="62" width="484" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="77" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E2</text>
+<text x="72" y="77" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Istwert</text>
+<rect x="211" y="62" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="77" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="438" y="77" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Differenz Ist-Soll</text>
+<text x="494" y="77" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A2 &gt;</text>
+<rect x="13" y="84" width="484" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="99" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E3</text>
+<text x="72" y="99" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Hysterese</text>
+<rect x="211" y="84" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="99" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="438" y="99" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Istwert zu Niedrig</text>
+<text x="494" y="99" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A3 &gt;</text>
+<rect x="13" y="106" width="484" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="121" fill="#e0e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E4</text>
+<text x="72" y="121" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Stellwert</text>
+<rect x="211" y="106" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="121" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="438" y="121" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Istwert zu Niedrig</text>
+<text x="494" y="121" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A4 &gt;</text>
+<rect x="13" y="128" width="484" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="143" fill="#e0e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E5</text>
+<text x="72" y="143" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Multiplikator</text>
+<rect x="211" y="128" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="143" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10">1</text>
+<text x="438" y="143" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Stellwert Zusatz Multi</text>
+<text x="494" y="143" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A5 &gt;</text>
+<rect x="13" y="150" width="484" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="165" fill="#e0e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E6</text>
+<text x="72" y="165" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Zusatzstellwert</text>
+<rect x="211" y="150" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="165" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10">1</text>
+<text x="438" y="165" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Stellwert +/- Zusatz</text>
+<text x="494" y="165" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A6 &gt;</text>
+<rect x="13" y="172" width="484" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="438" y="187" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Sol/Ist Multiplikator</text>
+<text x="494" y="187" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A7 &gt;</text>
+<text x="15" y="212" fill="#606060" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="9">E:6 A:7 V:4</text>
+</svg>

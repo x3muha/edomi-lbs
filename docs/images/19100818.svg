@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="514" height="250" viewBox="0 0 514 250">
+<rect x="0" y="0" width="514" height="250" rx="0" fill="#f6f6f6" stroke="none"/>
+<rect x="12" y="12" width="490" height="216" rx="3" fill="#797979" stroke="none"/>
+<rect x="13" y="13" width="488" height="28" rx="3" fill="#ffffff" stroke="none"/>
+<text x="20" y="30" fill="#000000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12">cFos HTTP Zähler 1.0</text>
+<text x="494" y="30" fill="#707070" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">19100818</text>
+<rect x="440" y="17" width="35" height="16" rx="2" fill="#ff8000" stroke="none"/>
+<text x="458" y="29" fill="#000000" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9">EXEC</text>
+<rect x="13" y="40" width="488" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="55" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E1</text>
+<text x="72" y="55" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">IP/Host (z.B. 10.77.77.4)</text>
+<rect x="259" y="40" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="286" y="55" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="442" y="55" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">OK 1/0</text>
+<text x="498" y="55" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A1 &gt;</text>
+<rect x="13" y="62" width="488" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="77" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E2</text>
+<text x="72" y="77" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">User</text>
+<rect x="259" y="62" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="286" y="77" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="442" y="77" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Fehlertext</text>
+<text x="498" y="77" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A2 &gt;</text>
+<rect x="13" y="84" width="488" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="99" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E3</text>
+<text x="72" y="99" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Passwort</text>
+<rect x="259" y="84" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="286" y="99" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="442" y="99" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">HTTP Statuscode</text>
+<text x="498" y="99" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A3 &gt;</text>
+<rect x="13" y="106" width="488" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="121" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E4</text>
+<text x="72" y="121" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">ID (z.B. M4)</text>
+<rect x="259" y="106" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="286" y="121" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="442" y="121" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Gesendete URL</text>
+<text x="498" y="121" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A4 &gt;</text>
+<rect x="13" y="128" width="488" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="143" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E5</text>
+<text x="72" y="143" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Model (z.B. PVErzeugung)</text>
+<rect x="259" y="128" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="286" y="143" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="442" y="143" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Gesendetes JSON</text>
+<text x="498" y="143" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A5 &gt;</text>
+<rect x="13" y="150" width="488" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="165" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E6</text>
+<text x="72" y="165" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">power_w</text>
+<rect x="259" y="150" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="286" y="165" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<rect x="13" y="172" width="488" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="187" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E7</text>
+<text x="72" y="187" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Aktiv 1/0</text>
+<rect x="259" y="172" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="286" y="187" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10">1</text>
+<rect x="13" y="194" width="488" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="209" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E8</text>
+<text x="72" y="209" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">SSL pruefen 1/0</text>
+<rect x="259" y="194" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="286" y="209" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10">0</text>
+<text x="15" y="234" fill="#606060" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="9">E:8 A:5 V:2</text>
+</svg>

@@ -1,0 +1,241 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+.app1_elId {					/*LBS-ID im Titel*/
+	display:inline;
+	color:#909090;
+	padding-left:3px;
+	padding-right:3px;
+	vertical-align:top;
+}
+
+.app1_elHelp {					/*Hilfe-Link im Titel*/
+	display:inline;
+	color:#909090;
+	padding-left:3px;
+	padding-right:3px;
+	vertical-align:top;
+	border-left:1px dotted #a0a0a0;
+	cursor:pointer;
+}
+.app1_elHelp:hover {			/*Hilfe-Link: Hover*/
+	background:#000000;
+}
+
+.app1_elContainer {				/*LBS-Container*/
+	position:absolute;
+	background:#797979;
+	box-shadow:0 0 5px #404040;
+	cursor:pointer;	
+	border-radius:3px;
+	z-index:1;
+}
+
+.app1_elContainerLayer1 {		/*LBS-Container für Layer 1*/
+	position:absolute;
+	background:#797979;
+	cursor:pointer;
+	border-radius:3px;
+	z-index:1;
+}
+
+.app1_elDefault {				/*leere Zeile*/
+	height:12px;
+	border-bottom:1px solid transparent;
+}
+
+.app1_liveValue { 				/*Style für Live-Werte*/
+	padding-left:1px;
+	padding-right:1px;
+	border-radius:2px;
+	background:#e8e800;
+	color:#000000;
+}
+
+.app1_cellContent {				/*Container für Zellen-Inhalt (wegen Overflow)*/
+	font-size:10px;
+	line-height:12px;
+	height:12px;	/*### Zellenhöhe ist 15px: 12 + 1px Border + 2px cellSpacing*/
+}
+
+.app1_elTitel {					/*LBS-Titel*/
+	height:12px;
+	text-align:left;
+	overflow:hidden;
+	white-space:nowrap;
+	padding-left:3px;
+	color:#000000;
+	background:#ffffff;
+	border-bottom:1px solid #ffffff;
+}
+
+.app1_elTitel:hover {			/*LBS-Titel: Hover*/
+	-webkit-filter:contrast(0.5) brightness(1.5);
+}
+
+.app1_elInput {					/*Eingang: Name des Eingangs*/
+	height:12px;
+	text-align:left;
+	overflow:hidden;
+	white-space:nowrap;
+	color:#ffffff;
+	background:#303030;
+	border-bottom:1px solid #a0a0a0;
+}
+
+.app1_elInputKo {				/*Eingang: KO-Fahne*/
+	left:-52px;
+	line-height:14px;
+	font-size:10px;
+	margin-top:-1px;
+	width:60px;
+	height:14px;
+	border-radius:3px 0 0 3px;
+	text-align:right;
+	color:#000000;
+	background:#80ff00;
+}
+
+.app1_divKoTooltip {			/*Eingang: KO-Fahne: Tooltip*/
+	position:absolute;
+	z-index:1;
+	height:14px;
+	line-height:14px;
+	left:60px;
+	top:0px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-align:left;
+	padding-left:2px;
+	padding-right:2px;
+	color:#000000;
+	background:#80ff00;
+	font-size:10px;
+}
+
+.app1_elInputPin {				/*Eingang: Verbindungs-Pin*/
+	width:6px;
+	height:6px;
+	border-radius:2px 0px 0px 2px;
+	background:#e0e0e0;
+}
+
+.app1_elInputNum { 				/*Eingang: Pfeil und Eingangs-ID*/
+	color:#a0a0a0;
+	padding-left:2px;
+	padding-right:2px;
+	width:1px;
+	background:#303030;
+	border-bottom:1px solid #a0a0a0;
+}
+.app1_elInputNum.col0 {			/*Eingang: Default*/
+	color:#a0a0a0;
+}
+.app1_elInputNum.col1 {			/*Eingang: Trigger*/
+	color:#80e000;
+}
+.app1_elInputNum.col2 {			/*Eingang: Option*/
+	color:#e0e000;
+}
+.app1_elInputNum.col3 {			/*Eingang: Important*/
+	color:#ff8000;
+}
+
+.app1_elInputValue {			/*Eingang: Fixwert/Livewert*/
+	width:30px;
+	min-width:30px;
+	max-width:30px;
+	left:10px;
+	height:12px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-align:center;
+	color:#b0ff00;
+	background:#303030;
+	border-left:1px dotted #909090;
+	border-bottom:1px solid #a0a0a0;
+}
+
+.app1_divValueTooltip {			/*Eingang: Fixwert/Livewert: Tooltip*/
+	min-width:30px;
+	text-align:center;
+	z-index:1;
+	height:12px;
+	line-height:12px;
+	overflow:hidden;
+	white-space:nowrap;
+	color:#b0ff00;
+	background:#303030;
+	border:1px solid #303030;
+	font-size:10px;
+	margin-left:1px;
+}
+
+.app1_elOutput {				/*Ausgang*/
+	height:12px;
+	color:#ffffff;
+	text-align:right;
+	overflow:hidden;
+	white-space:nowrap;
+	padding-left:3px;
+	border-bottom:1px solid #a0a0a0;
+	width:1px;
+}
+
+.app1_elOutputPin {				/*Ausgang: Verbindungs-Pin*/
+	width:6px;
+	height:6px;
+	border-radius:0px 2px 2px 0px;
+	background:#e0e0e0;
+}
+
+.app1_elOutputNum { 			/*Ausgang: Pfeil und Ausgangs-ID*/
+	color:#d0d0d0;
+	padding-left:2px;
+	padding-right:2px;
+	width:1px;
+	text-align:right;
+	border-bottom:1px solid #a0a0a0;
+}
+
+.app1_divTitelInfo { 			/*Bemerkung (unterhalb des Bausteins)*/
+	display:table;
+	white-space:nowrap;
+	margin-top:3px;
+	width:100%;
+	min-height:5px;
+	text-align:left;
+	font-size:10px;
+	color:#3030ff;
+}
+
+.app1_divTitelInfo:hover { 		/*Bemerkung: Hover*/
+	background:#e0e0e0;
+}
+
+.app1_divTitelInfo2 { 			
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    padding: 8px;
+}
+.lbs-preview-wrap {
+    display: inline-block;
+}
+.app1_elContainer {
+    position: relative !important;
+    left: auto !important;
+    top: auto !important;
+}
+.app1_elHelp {
+    display: inline-block;
+}
+
+</style></head><body>
+<div class="lbs-preview-wrap"><table border="0" cellspacing="0" cellpadding="1" class="app1_elContainer" style="position:relative; box-shadow:0 0 5px #404040; pointer-events:none;"><tr><td colspan="5" class="app1_elTitel"><div class="app1_cellContent" style="width:100%;"><table border="0" cellpadding="0" cellspacing="0" style="width:100%; table-layout:auto;"><tr><td>cFos Switch Writer 4fach 1.0</td><td align="right"><span class="app1_elId">19100829</span><span class="app1_elHelp">?</span></td></tr></table></div></td></tr><tr><td class="app1_elInputNum col0"><div class="app1_cellContent">&#x25B8;&nbsp;E1</div></td><td class="app1_elInput"><div class="app1_cellContent">IP/Host (z.B. 10.77.77.4)</div></td><td class="app1_elInputValue"><div class="app1_cellContent"></div></td><td class="app1_elOutput"><div class="app1_cellContent">OK gesamt 1/0</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A1&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elInputNum col0"><div class="app1_cellContent">&#x25B8;&nbsp;E2</div></td><td class="app1_elInput"><div class="app1_cellContent">User</div></td><td class="app1_elInputValue"><div class="app1_cellContent"></div></td><td class="app1_elOutput"><div class="app1_cellContent">Fehlertext gesamt</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A2&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elInputNum col0"><div class="app1_cellContent">&#x25B8;&nbsp;E3</div></td><td class="app1_elInput"><div class="app1_cellContent">Passwort</div></td><td class="app1_elInputValue"><div class="app1_cellContent"></div></td><td class="app1_elOutput"><div class="app1_cellContent">Status Text</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A3&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elInputNum col0"><div class="app1_cellContent">&#x25B8;&nbsp;E4</div></td><td class="app1_elInput"><div class="app1_cellContent">Varname 1</div></td><td class="app1_elInputValue"><div class="app1_cellContent"></div></td><td class="app1_elOutput"><div class="app1_cellContent">HTTP1</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A4&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elInputNum col1"><div class="app1_cellContent">&#x25B8;&nbsp;E5</div></td><td class="app1_elInput"><div class="app1_cellContent">Wert 1 (0/1)</div></td><td class="app1_elInputValue"><div class="app1_cellContent"></div></td><td class="app1_elOutput"><div class="app1_cellContent">HTTP2</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A5&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elInputNum col0"><div class="app1_cellContent">&#x25B8;&nbsp;E6</div></td><td class="app1_elInput"><div class="app1_cellContent">Varname 2</div></td><td class="app1_elInputValue"><div class="app1_cellContent"></div></td><td class="app1_elOutput"><div class="app1_cellContent">HTTP3</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A6&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elInputNum col1"><div class="app1_cellContent">&#x25B8;&nbsp;E7</div></td><td class="app1_elInput"><div class="app1_cellContent">Wert 2 (0/1)</div></td><td class="app1_elInputValue"><div class="app1_cellContent"></div></td><td class="app1_elOutput"><div class="app1_cellContent">HTTP4</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A7&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elInputNum col0"><div class="app1_cellContent">&#x25B8;&nbsp;E8</div></td><td class="app1_elInput"><div class="app1_cellContent">Varname 3</div></td><td class="app1_elInputValue"><div class="app1_cellContent"></div></td><td class="app1_elOutput"><div class="app1_cellContent">Letzte URL</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A8&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elInputNum col1"><div class="app1_cellContent">&#x25B8;&nbsp;E9</div></td><td class="app1_elInput"><div class="app1_cellContent">Wert 3 (0/1)</div></td><td class="app1_elInputValue"><div class="app1_cellContent"></div></td><td class="app1_elOutput"><div class="app1_cellContent">Antwort kurz</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A9&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elInputNum col0"><div class="app1_cellContent">&#x25B8;&nbsp;E10</div></td><td class="app1_elInput"><div class="app1_cellContent">Varname 4</div></td><td class="app1_elInputValue"><div class="app1_cellContent"></div></td><td class="app1_elOutput"><div class="app1_cellContent">Anzahl gesendet</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A10&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elInputNum col1"><div class="app1_cellContent">&#x25B8;&nbsp;E11</div></td><td class="app1_elInput"><div class="app1_cellContent">Wert 4 (0/1)</div></td><td class="app1_elInputValue"><div class="app1_cellContent"></div></td><td class="app1_elOutput"><div class="app1_cellContent">Variablen Text</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A11&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elInputNum col0"><div class="app1_cellContent">&#x25B8;&nbsp;E12</div></td><td class="app1_elInput"><div class="app1_cellContent">Aktiv 1/0</div></td><td class="app1_elInputValue"><div class="app1_cellContent">1</div></td><td class="app1_elOutput"><div class="app1_cellContent">Zeitstempel</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A12&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elInputNum col0"><div class="app1_cellContent">&#x25B8;&nbsp;E13</div></td><td class="app1_elInput"><div class="app1_cellContent">Debug 1/0</div></td><td class="app1_elInputValue"><div class="app1_cellContent">0</div></td><td class="app1_elDefault" colspan="2"></td></tr><tr><td class="app1_elInputNum col0"><div class="app1_cellContent">&#x25B8;&nbsp;E14</div></td><td class="app1_elInput"><div class="app1_cellContent">SSL pruefen 1/0</div></td><td class="app1_elInputValue"><div class="app1_cellContent">0</div></td><td class="app1_elDefault" colspan="2"></td></tr></table><div class="app1_divTitelInfo">cFos Switch Writer 4fach 1.0</div></div>
+</body></html>
