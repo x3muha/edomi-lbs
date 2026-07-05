@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="503" height="624" viewBox="0 0 503 624">
+<rect x="0" y="0" width="503" height="624" rx="0" fill="#f6f6f6" stroke="none"/>
+<rect x="12" y="12" width="479" height="590" rx="3" fill="#797979" stroke="none"/>
+<rect x="13" y="13" width="477" height="28" rx="3" fill="#ffffff" stroke="none"/>
+<text x="20" y="30" fill="#000000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12">Hoymiles DTUBI lokale TCP-Abfrage 1.0</text>
+<text x="483" y="30" fill="#707070" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">19100841</text>
+<rect x="429" y="17" width="35" height="16" rx="2" fill="#ff8000" stroke="none"/>
+<text x="447" y="29" fill="#000000" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9">EXEC</text>
+<rect x="13" y="40" width="477" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="55" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E1</text>
+<text x="72" y="55" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Lesen/Refresh</text>
+<rect x="211" y="40" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="55" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="431" y="55" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">AC Leistung W</text>
+<text x="487" y="55" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A1 &gt;</text>
+<rect x="13" y="62" width="477" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="77" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E2</text>
+<text x="72" y="77" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Aktiv 1/0</text>
+<rect x="211" y="62" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="77" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10">1</text>
+<text x="431" y="77" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">AC Spannung V</text>
+<text x="487" y="77" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A2 &gt;</text>
+<rect x="13" y="84" width="477" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="99" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E3</text>
+<text x="72" y="99" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">DTU IP-Adresse</text>
+<rect x="211" y="84" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="99" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10">10.0...</text>
+<text x="431" y="99" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">AC Strom A</text>
+<text x="487" y="99" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A3 &gt;</text>
+<rect x="13" y="106" width="477" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="121" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E4</text>
+<text x="72" y="121" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Anzahl DC-Strings</text>
+<rect x="211" y="106" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="121" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10">2</text>
+<text x="431" y="121" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">AC Frequenz Hz</text>
+<text x="487" y="121" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A4 &gt;</text>
+<rect x="13" y="128" width="477" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="143" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E5</text>
+<text x="72" y="143" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Timeout Sekunden</text>
+<rect x="211" y="128" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="143" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10">5</text>
+<text x="431" y="143" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Tagesertrag Wh</text>
+<text x="487" y="143" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A5 &gt;</text>
+<rect x="13" y="150" width="477" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="165" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E6</text>
+<text x="72" y="165" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Zyklus Sekunden</text>
+<rect x="211" y="150" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="165" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10">0</text>
+<text x="431" y="165" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Gesamtertrag kWh</text>
+<text x="487" y="165" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A6 &gt;</text>
+<rect x="13" y="172" width="477" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="187" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E7</text>
+<text x="72" y="187" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Debug 1/0</text>
+<rect x="211" y="172" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="187" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10">0</text>
+<text x="431" y="187" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Temperatur C</text>
+<text x="487" y="187" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A7 &gt;</text>
+<rect x="13" y="194" width="477" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="431" y="209" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status Text</text>
+<text x="487" y="209" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A8 &gt;</text>
+<rect x="13" y="216" width="477" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="431" y="231" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">DC Leistung gesamt W</text>
+<text x="487" y="231" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A9 &gt;</text>
+<rect x="13" y="238" width="477" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="431" y="253" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">DC String 1 Spannung V</text>
+<text x="487" y="253" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A10 &gt;</text>
+<rect x="13" y="260" width="477" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="431" y="275" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">DC String 1 Strom A</text>
+<text x="487" y="275" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A11 &gt;</text>
+<rect x="13" y="282" width="477" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="431" y="297" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">DC String 1 Leistung W</text>
+<text x="487" y="297" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A12 &gt;</text>
+<rect x="13" y="304" width="477" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="431" y="319" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">DC String 2 Spannung V</text>
+<text x="487" y="319" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A13 &gt;</text>
+<rect x="13" y="326" width="477" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="431" y="341" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">DC String 2 Strom A</text>
+<text x="487" y="341" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A14 &gt;</text>
+<rect x="13" y="348" width="477" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="431" y="363" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">DC String 2 Leistung W</text>
+<text x="487" y="363" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A15 &gt;</text>
+<rect x="13" y="370" width="477" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="431" y="385" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">DC String 3 Spannung V</text>
+<text x="487" y="385" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A16 &gt;</text>
+<rect x="13" y="392" width="477" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="431" y="407" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">DC String 3 Strom A</text>
+<text x="487" y="407" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A17 &gt;</text>
+<rect x="13" y="414" width="477" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="431" y="429" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">DC String 3 Leistung W</text>
+<text x="487" y="429" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A18 &gt;</text>
+<rect x="13" y="436" width="477" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="431" y="451" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">DC String 4 Spannung V</text>
+<text x="487" y="451" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A19 &gt;</text>
+<rect x="13" y="458" width="477" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="431" y="473" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">DC String 4 Strom A</text>
+<text x="487" y="473" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A20 &gt;</text>
+<rect x="13" y="480" width="477" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="431" y="495" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">DC String 4 Leistung W</text>
+<text x="487" y="495" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A21 &gt;</text>
+<rect x="13" y="502" width="477" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="431" y="517" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">JSON Werte</text>
+<text x="487" y="517" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A22 &gt;</text>
+<rect x="13" y="524" width="477" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="431" y="539" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Erreichbar 1/0</text>
+<text x="487" y="539" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A23 &gt;</text>
+<rect x="13" y="546" width="477" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="431" y="561" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Produziert 1/0</text>
+<text x="487" y="561" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A24 &gt;</text>
+<rect x="13" y="568" width="477" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="431" y="583" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Wirkungsgrad Prozent</text>
+<text x="487" y="583" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A25 &gt;</text>
+<text x="15" y="608" fill="#606060" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="9">E:7 A:25 V:2</text>
+</svg>

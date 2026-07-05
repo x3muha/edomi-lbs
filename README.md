@@ -19,3 +19,4 @@ Auswahl eigener EDOMI-Logikbausteine.
 | [19100836](bausteine/19100836/README.md) | [ESPHome Tesla BLE 1.0](bausteine/19100836/README.md) | ESPHome Tesla BLE Status lesen und zentrale Steuerbefehle senden. |
 | [19100839](bausteine/19100839/README.md) | [ESPHome Midea X3 1.0](bausteine/19100839/README.md) | ESPHome Midea X3 Klima-, Fresh- und Clean-Status/Steuerung. |
 | [19100840](bausteine/19100840/README.md) | [KNX DPT 20.105 Mapper 1.0](bausteine/19100840/README.md) | KNX DPT 20.105 HVAC Control Mode zwischen DPT-Wert und 1/0-Modusobjekten mappen. |
+| [19100841](bausteine/19100841/README.md) | [Hoymiles DTUBI 1.0](bausteine/19100841/README.md) | Hoymiles HMS/HMT Wechselrichter mit integrierter WLAN-DTU lokal per TCP/Protobuf lesen. |
