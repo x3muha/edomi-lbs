@@ -1,7 +1,7 @@
 ###[DEF]###
-[name = ESPHome Tesla BLE 1.1]
-[titel = ESPHome Tesla BLE Status und Steuerung 1.1]
-[version = 1.1]
+[name = ESPHome Tesla BLE 2.0]
+[titel = ESPHome Tesla BLE Status und Steuerung 2.0]
+[version = 2.0]
 
 [e#1 = ESPHome URL/IP #init=http://10.0.1.141]
 [e#2 = User #init=root]
@@ -45,11 +45,11 @@
 [a#16 = Ladelimit %]
 [a#17 = Zeit bis voll min]
 [a#18 = Energie geladen kWh]
-[a#19 = Tueren Status]
-[a#20 = Ladekabel Latch Status]
-[a#21 = Charge Port Door Status]
-[a#22 = Frunk Status]
-[a#23 = Trunk Status]
+[a#19 = Tueren verriegelt 1/0]
+[a#20 = Ladekabel Latch verriegelt 1/0]
+[a#21 = Charge Port Door geschlossen 1/0]
+[a#22 = Frunk geschlossen 1/0]
+[a#23 = Trunk geschlossen 1/0]
 [a#24 = Asleep 1/0]
 [a#25 = User Present 1/0]
 [a#26 = Parking Brake 1/0]
@@ -64,7 +64,7 @@
 ###[/DEF]###
 
 ###[HELP]###
-Version: 1.1
+Version: 2.0
 
 ESPHome Tesla BLE (19100836)
 
@@ -73,6 +73,7 @@ Zweck:
 - Gibt zentrale Werte einzeln und als kompaktes JSON fuer eine spaetere VSE aus.
 - Sendet Steuerbefehle an ESPHome: Frunk oeffnen, Ladekabel entriegeln, Laden Start/Stop, Ladeampere, Ladelimit, Tueren Lock/Unlock, Charge Port Door.
 - A31 zeigt den ESPHome-BLE-Verbindungsstatus des Fahrzeugs aus switch/BLE Connection als 1/0.
+- A19..A23 sind numerische Statuswerte: 1 = geschlossen/verriegelt, 0 = offen/entriegelt. Unbekannte Rohwerte bleiben leer.
 
 ESPHome-Seite:
 - web_server muss aktiv sein.
@@ -167,6 +168,15 @@ function _tesla36_bool($v){
   if(is_bool($v)) return $v ? 1 : 0;
   $s=strtolower(trim((string)$v));
   return ($s==='1' || $s==='on' || $s==='true' || $s==='yes') ? 1 : 0;
+}
+
+function _tesla36_closed_bool($v,$default=''){
+  if(is_bool($v)) return $v ? 1 : 0;
+  $s=strtolower(trim((string)$v));
+  if($s==='') return $default;
+  if(in_array($s,array('1','on','true','yes','closed','close','locked','lock'),true)) return 1;
+  if(in_array($s,array('0','off','false','no','open','opening','opened','unlocked','unlock'),true)) return 0;
+  return $default;
 }
 
 function _tesla36_num($v,$default=''){
@@ -366,11 +376,16 @@ if($E){
   $chargingLimit=_tesla36_val($state,'charging_limit');
   $timeToFull=_tesla36_val($state,'time_to_full');
   $energyAdded=_tesla36_val($state,'energy_added');
-  $doors=_tesla36_state($state,'doors');
-  $chargeLatch=_tesla36_state($state,'charge_port_latch');
-  $chargeDoor=_tesla36_state($state,'charge_port_door');
-  $frunk=_tesla36_state($state,'frunk');
-  $trunk=_tesla36_state($state,'trunk');
+  $doorsRaw=_tesla36_state($state,'doors');
+  $chargeLatchRaw=_tesla36_state($state,'charge_port_latch');
+  $chargeDoorRaw=_tesla36_state($state,'charge_port_door');
+  $frunkRaw=_tesla36_state($state,'frunk');
+  $trunkRaw=_tesla36_state($state,'trunk');
+  $doors=_tesla36_closed_bool($doorsRaw);
+  $chargeLatch=_tesla36_closed_bool($chargeLatchRaw);
+  $chargeDoor=_tesla36_closed_bool($chargeDoorRaw);
+  $frunk=_tesla36_closed_bool($frunkRaw);
+  $trunk=_tesla36_closed_bool($trunkRaw);
   $asleep=_tesla36_bool(_tesla36_val($state,'asleep'));
   $userPresent=_tesla36_bool(_tesla36_val($state,'user_present'));
   $parkingBrake=_tesla36_bool(_tesla36_val($state,'parking_brake'));
@@ -399,6 +414,13 @@ if($E){
     'charge_port_door'=>$chargeDoor,
     'frunk'=>$frunk,
     'trunk'=>$trunk,
+    'raw'=>array(
+      'doors'=>$doorsRaw,
+      'charge_port_latch'=>$chargeLatchRaw,
+      'charge_port_door'=>$chargeDoorRaw,
+      'frunk'=>$frunkRaw,
+      'trunk'=>$trunkRaw
+    ),
     'asleep'=>$asleep,
     'user_present'=>$userPresent,
     'parking_brake'=>$parkingBrake,

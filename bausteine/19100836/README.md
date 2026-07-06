@@ -1,6 +1,6 @@
-# ESPHome Tesla BLE 1.1
+# ESPHome Tesla BLE 2.0
 
-![LBS 19100836 ESPHome Tesla BLE 1.1](../../docs/images/19100836.png)
+![LBS 19100836 ESPHome Tesla BLE 2.0](../../docs/images/19100836.png)
 
 **ID:** `19100836`  
 **Importdatei:** [`19100836_lbs.php`](../../LBS/19100836/19100836_lbs.php)  
@@ -8,7 +8,7 @@
 
 ## Hilfe
 
-Version: 1.1
+Version: 2.0
 
 ESPHome Tesla BLE (19100836)
 
@@ -17,6 +17,7 @@ Zweck:
 - Gibt zentrale Werte einzeln und als kompaktes JSON fuer eine spaetere VSE aus.
 - Sendet Steuerbefehle an ESPHome: Frunk oeffnen, Ladekabel entriegeln, Laden Start/Stop, Ladeampere, Ladelimit, Tueren Lock/Unlock, Charge Port Door.
 - A31 zeigt den ESPHome-BLE-Verbindungsstatus des Fahrzeugs aus switch/BLE Connection als 1/0.
+- A19..A23 sind numerische Statuswerte: 1 = geschlossen/verriegelt, 0 = offen/entriegelt. Unbekannte Rohwerte bleiben leer.
 
 ESPHome-Seite:
 - web_server muss aktiv sein.

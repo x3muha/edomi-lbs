@@ -16,7 +16,7 @@ Auswahl eigener EDOMI-Logikbausteine.
 | [19100829](bausteine/19100829/README.md) | [cFos Switch Writer 4fach 1.0](bausteine/19100829/README.md) | Schreibt bis zu vier als Switch/Bool deklarierte cFos Charging-Manager-Variablen. |
 | [19100830](bausteine/19100830/README.md) | [cFos HTTP Reader 4fach 1.0](bausteine/19100830/README.md) | Zyklischer 4fach-Reader für cFos /cnf?cmd=get_dev_info. |
 | [19100834](bausteine/19100834/README.md) | [FriWa Wh Verteiler 1.0](bausteine/19100834/README.md) | FriWa-Zählerstand auf Zirkulation und vier Kanäle verteilen. |
-| [19100836](bausteine/19100836/README.md) | [ESPHome Tesla BLE 1.1](bausteine/19100836/README.md) | ESPHome Tesla BLE Status lesen und zentrale Steuerbefehle senden. |
+| [19100836](bausteine/19100836/README.md) | [ESPHome Tesla BLE 2.0](bausteine/19100836/README.md) | ESPHome Tesla BLE Status lesen und zentrale Steuerbefehle senden. |
 | [19100839](bausteine/19100839/README.md) | [ESPHome Midea X3 1.0](bausteine/19100839/README.md) | ESPHome Midea X3 Klima-, Fresh- und Clean-Status/Steuerung. |
 | [19100840](bausteine/19100840/README.md) | [KNX DPT 20.105 Mapper 1.0](bausteine/19100840/README.md) | KNX DPT 20.105 HVAC Control Mode zwischen DPT-Wert und 1/0-Modusobjekten mappen. |
 | [19100841](bausteine/19100841/README.md) | [Hoymiles DTUBI 1.0](bausteine/19100841/README.md) | Hoymiles HMS/HMT Wechselrichter mit integrierter WLAN-DTU lokal per TCP/Protobuf lesen. |
