@@ -2,34 +2,54 @@
 
 ![LBS 19100806 SolarAssistant Decoder 2.1](../../docs/images/19100806.png)
 
-Kompakter EDOMI-LBS fuer SolarAssistant.
+**ID:** `19100806`  
+**Importdatei:** [`19100806_lbs.php`](../../LBS/19100806/19100806_lbs.php)  
+**Beschreibung:** SolarAssistant per REST lesen und ausgewaehlte Inverter-Einstellungen schreiben.
 
-## Datei
+**Bild online:** https://raw.githubusercontent.com/x3muha/edomi-lbs/main/docs/images/19100806.png
 
-- Import: [`19100806_lbs.php`](../../LBS/19100806/19100806_lbs.php)
-- Vorschau: [`19100806.png`](../../docs/images/19100806.png)
-- Bild online: https://raw.githubusercontent.com/x3muha/edomi-lbs/main/docs/images/19100806.png
+## Hilfe
 
-## Funktion
+Version: 2.1
 
-- Liest SolarAssistant zyklisch per REST API.
-- Gibt zentrale PV-, Batterie-, Netz-, Last- und Systemwerte auf festen Ausgaengen aus.
-- Schreibt ausgewaehlte Inverter-Einstellungen ueber `POST /api/v1/metrics`.
-- Zeigt Schreib-Erfolg oder SolarAssistant-Fehlertext auf A2.
+SolarAssistant Decoder 2.1
 
-## Schreibwerte
+Zweck:
+- Holt JSON zyklisch von SolarAssistant REST API und gibt Kernwerte auf feste Ausgaenge aus.
+- Schreibt ausgewaehlte Inverter-Einstellungen ueber SolarAssistant REST API.
+- Schreiben erfolgt per POST /api/v1/metrics; A2 zeigt den Schreibstatus.
+- Bei ungueltiger/leerer Antwort bleiben letzte gueltige Nutzwerte stehen.
 
-- E28/A28: `inverter_1/max_grid_charge_current`
-- E29/A29: `inverter_1/max_charge_current`
-- E30/A30: `inverter_1/capacity_point_6`
-- E31/A31: `inverter_1/force_off_grid`
+Betrieb:
+- E1 = Basis-URL/IP (z. B. http://192.168.1.50)
+- E2 = API-Pfad (Standard /api/v1/metrics)
+- E3/E4 = User/Passwort
+- E5 = Aktiv (1 startet zyklische Abfrage)
+- E6 = Intervall in Sekunden
+- E28 = max_grid_charge_current in A
+- E29 = max_charge_current in A
+- E30 = capacity_point_6 in %
+- E31 = force_off_grid
+- HTTP/cURL laeuft im EXEC-Teil, damit die Logik nicht blockiert.
 
-Ein Refresh auf E28..E31 schreibt sofort. Wenn EDOMI beim manuellen Eintragen kein Refresh-Flag setzt, erkennt der Baustein geaenderte nicht-leere Werte nach der ersten Baseline beim naechsten Lauf.
+Ausgaenge:
+- A10..A24: bisherige Kernwerte.
+- A25..A26 und A33..A42: weitere total/* Werte aus der aktuellen API.
+- A28..A31: ausgewaehlte Inverter-Statuswerte mit gleich nummeriertem
+  Schreibeingang.
+- A43..A46: system/* Werte aus /api/v1/system.
+- A27 und A32 bleiben bewusst frei.
 
-## Hinweise
+Schreiben:
+- MQTT-Topic `solar_assistant/inverter_1/capacity_point_6/set` entspricht
+  REST-Set auf `inverter_1/capacity_point_6`.
+- Ein Refresh auf E28..E31 schreibt sofort den jeweiligen Eingangswert per
+  POST /api/v1/metrics.
+- Falls EDOMI beim manuellen Eintragen kein Refresh-Flag setzt, schreibt der
+  Baustein den geaenderten nicht-leeren Wert nach der ersten Baseline beim
+  naechsten Lauf.
+- A2 zeigt danach `Schreiben OK: ...` oder den von SolarAssistant gelieferten
+  Fehlertext.
 
-- E1 ist die SolarAssistant Basis-URL, z. B. `http://192.168.1.50`.
-- E2 bleibt normalerweise `/api/v1/metrics`.
-- E3/E4 sind User und Passwort der SolarAssistant Weboberflaeche.
-- E5 aktiviert die zyklische Abfrage.
-- E6 ist das Intervall in Sekunden.
+Fehlerbild:
+- A2 liefert Text bei URL/Auth/JSON-Fehlern und beim Schreiben den Status.

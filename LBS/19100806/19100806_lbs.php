@@ -1,5 +1,5 @@
 ###[DEF]###
-[name = SolarAssistant Decoder]
+[name = SolarAssistant Decoder 2.1]
 [version = 2.1]
 
 [e#1 = IP/URL (z.B. http://192.168.1.50)]
@@ -14,7 +14,7 @@
 [e#31 = Set force_off_grid]
 
 [a#1 = OK]
-[a#2 = Fehlertext]
+[a#2 = Fehlertext / Schreibstatus]
 [a#3 = Anzahl Datensaetze]
 [a#4 = JSON komplett (normalisiert)]
 [a#5 = JSON Status-Gruppe]
@@ -68,14 +68,12 @@
 ###[HELP]###
 Version: 2.1
 
-SolarAssistant Decoder (HTTP Polling)
+SolarAssistant Decoder 2.1
 
 Zweck:
 - Holt JSON zyklisch von SolarAssistant REST API und gibt Kernwerte auf feste Ausgaenge aus.
-- Version 1.1 ergaenzt alle weiteren aktuellen total/* Werte und /api/v1/system.
-- Version 2.0 entfernt die sechs Battery-Cell-Detailwerte A27..A32,
-  laesst A27 und A32 frei und nutzt A28..A31 fuer Status plus direkte
-  Schreibeingaenge mit gleicher Nummer.
+- Schreibt ausgewaehlte Inverter-Einstellungen ueber SolarAssistant REST API.
+- Schreiben erfolgt per POST /api/v1/metrics; A2 zeigt den Schreibstatus.
 - Bei ungueltiger/leerer Antwort bleiben letzte gueltige Nutzwerte stehen.
 
 Betrieb:
@@ -84,11 +82,10 @@ Betrieb:
 - E3/E4 = User/Passwort
 - E5 = Aktiv (1 startet zyklische Abfrage)
 - E6 = Intervall in Sekunden
-- E28..E31 schreiben bei Eingang-Refresh den Wert per REST auf das
-  gleich nummerierte SolarAssistant-Topic.
-- Version 2.1 schreibt E28..E31 ueber den offiziellen REST-Endpunkt
-  POST /api/v1/metrics, erkennt zusaetzlich Wertaenderungen ohne Refresh-Flag
-  und zeigt Schreib-Erfolg oder SolarAssistant-Fehler in A2 an.
+- E28 = max_grid_charge_current in A
+- E29 = max_charge_current in A
+- E30 = capacity_point_6 in %
+- E31 = force_off_grid
 - HTTP/cURL laeuft im EXEC-Teil, damit die Logik nicht blockiert.
 
 Ausgaenge:
@@ -102,12 +99,16 @@ Ausgaenge:
 Schreiben:
 - MQTT-Topic `solar_assistant/inverter_1/capacity_point_6/set` entspricht
   REST-Set auf `inverter_1/capacity_point_6`.
-- Ein Refresh auf E28..E31 schreibt sofort den jeweiligen Eingangswert.
+- Ein Refresh auf E28..E31 schreibt sofort den jeweiligen Eingangswert per
+  POST /api/v1/metrics.
 - Falls EDOMI beim manuellen Eintragen kein Refresh-Flag setzt, schreibt der
-  Baustein den geaenderten nicht-leeren Wert beim naechsten Lauf.
+  Baustein den geaenderten nicht-leeren Wert nach der ersten Baseline beim
+  naechsten Lauf.
+- A2 zeigt danach `Schreiben OK: ...` oder den von SolarAssistant gelieferten
+  Fehlertext.
 
 Fehlerbild:
-- A2 liefert Text bei URL/Auth/JSON-Fehlern.
+- A2 liefert Text bei URL/Auth/JSON-Fehlern und beim Schreiben den Status.
 
 ###[/HELP]###
 
