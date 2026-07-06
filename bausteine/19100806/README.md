@@ -1,11 +1,14 @@
 # SolarAssistant Decoder 2.1
 
+![LBS 19100806 SolarAssistant Decoder 2.1](../../docs/images/19100806.png)
+
 Kompakter EDOMI-LBS fuer SolarAssistant.
 
 ## Datei
 
-- Import: `LBS/19100806/19100806_lbs.php`
-- Vorschau: `docs/images/19100806.png`
+- Import: [`19100806_lbs.php`](../../LBS/19100806/19100806_lbs.php)
+- Vorschau: [`19100806.png`](../../docs/images/19100806.png)
+- Bild online: https://raw.githubusercontent.com/x3muha/edomi-lbs/main/docs/images/19100806.png
 
 ## Funktion
 
