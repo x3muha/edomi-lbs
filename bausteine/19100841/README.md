@@ -19,6 +19,7 @@ Zweck:
 Voraussetzungen:
 - Python 3 auf dem EDOMI-Server, bevorzugt `python3.11` oder `python3`.
 - Python-Paket `hoymiles-wifi`, z.B. `python3 -m pip install hoymiles-wifi`.
+- Projekt/Bibliothek: https://github.com/suaveolent/hoymiles-wifi
 - Netzwerkzugriff vom EDOMI-Server zur DTU.
 
 Eingaenge:

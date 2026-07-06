@@ -1,6 +1,6 @@
-# ESPHome Tesla BLE 1.0
+# ESPHome Tesla BLE 1.1
 
-![LBS 19100836 ESPHome Tesla BLE 1.0](../../docs/images/19100836.png)
+![LBS 19100836 ESPHome Tesla BLE 1.1](../../docs/images/19100836.png)
 
 **ID:** `19100836`  
 **Importdatei:** [`19100836_lbs.php`](../../LBS/19100836/19100836_lbs.php)  
@@ -8,7 +8,7 @@
 
 ## Hilfe
 
-Version: 1.0
+Version: 1.1
 
 ESPHome Tesla BLE (19100836)
 
@@ -16,11 +16,14 @@ Zweck:
 - Liest wichtige ESPHome-Tesla-BLE-Entities per ESPHome Web API.
 - Gibt zentrale Werte einzeln und als kompaktes JSON fuer eine spaetere VSE aus.
 - Sendet Steuerbefehle an ESPHome: Frunk oeffnen, Ladekabel entriegeln, Laden Start/Stop, Ladeampere, Ladelimit, Tueren Lock/Unlock, Charge Port Door.
+- A31 zeigt den ESPHome-BLE-Verbindungsstatus des Fahrzeugs aus switch/BLE Connection als 1/0.
 
 ESPHome-Seite:
 - web_server muss aktiv sein.
 - Bei gesetzter Authentifizierung E2/E3 belegen, z.B. User root und Passwort.
 - Der Baustein nutzt HTTP-REST-Endpunkte wie /sensor/Battery?detail=all und POST /lock/Charge%20Port%20Latch/unlock.
+- ESPHome-Projekt: https://github.com/yoziru/esphome-tesla-ble
+- Tesla-BLE-Bibliothek: https://github.com/yoziru/tesla-ble
 
 Eingaenge:
 - E1: URL oder IP, z.B. http://10.0.1.141 oder 10.0.1.141

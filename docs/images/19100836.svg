@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="653" height="734" viewBox="0 0 653 734">
-<rect x="0" y="0" width="653" height="734" rx="0" fill="#f6f6f6" stroke="none"/>
-<rect x="12" y="12" width="629" height="700" rx="3" fill="#797979" stroke="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="653" height="756" viewBox="0 0 653 756">
+<rect x="0" y="0" width="653" height="756" rx="0" fill="#f6f6f6" stroke="none"/>
+<rect x="12" y="12" width="629" height="722" rx="3" fill="#797979" stroke="none"/>
 <rect x="13" y="13" width="627" height="28" rx="3" fill="#ffffff" stroke="none"/>
-<text x="20" y="30" fill="#000000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12">ESPHome Tesla BLE Status und Steuerung 1.0</text>
+<text x="20" y="30" fill="#000000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12">ESPHome Tesla BLE Status und Steuerung 1.1</text>
 <text x="633" y="30" fill="#707070" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">19100836</text>
 <rect x="579" y="17" width="35" height="16" rx="2" fill="#ff8000" stroke="none"/>
 <text x="597" y="29" fill="#000000" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9">EXEC</text>
@@ -185,5 +185,8 @@
 <rect x="13" y="678" width="627" height="21" rx="0" fill="#303030" stroke="none"/>
 <text x="581" y="693" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Command Status</text>
 <text x="637" y="693" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A30 &gt;</text>
-<text x="15" y="718" fill="#606060" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="9">E:22 A:30 V:2</text>
+<rect x="13" y="700" width="627" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="581" y="715" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Fahrzeug verbunden 1/0</text>
+<text x="637" y="715" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A31 &gt;</text>
+<text x="15" y="740" fill="#606060" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="9">E:22 A:31 V:2</text>
 </svg>

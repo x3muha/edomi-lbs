@@ -1,7 +1,7 @@
 ###[DEF]###
-[name = ESPHome Tesla BLE 1.0]
-[titel = ESPHome Tesla BLE Status und Steuerung 1.0]
-[version = 1.0]
+[name = ESPHome Tesla BLE 1.1]
+[titel = ESPHome Tesla BLE Status und Steuerung 1.1]
+[version = 1.1]
 
 [e#1 = ESPHome URL/IP #init=http://10.0.1.141]
 [e#2 = User #init=root]
@@ -57,13 +57,14 @@
 [a#28 = WiFi Signal dBm]
 [a#29 = Last Command]
 [a#30 = Command Status]
+[a#31 = Fahrzeug verbunden 1/0]
 
 [v#91 = 0] Pending
 [v#100 = ] letzte Ausgaenge JSON
 ###[/DEF]###
 
 ###[HELP]###
-Version: 1.0
+Version: 1.1
 
 ESPHome Tesla BLE (19100836)
 
@@ -71,6 +72,7 @@ Zweck:
 - Liest wichtige ESPHome-Tesla-BLE-Entities per ESPHome Web API.
 - Gibt zentrale Werte einzeln und als kompaktes JSON fuer eine spaetere VSE aus.
 - Sendet Steuerbefehle an ESPHome: Frunk oeffnen, Ladekabel entriegeln, Laden Start/Stop, Ladeampere, Ladelimit, Tueren Lock/Unlock, Charge Port Door.
+- A31 zeigt den ESPHome-BLE-Verbindungsstatus des Fahrzeugs aus switch/BLE Connection als 1/0.
 
 ESPHome-Seite:
 - web_server muss aktiv sein.
@@ -372,6 +374,7 @@ if($E){
   $asleep=_tesla36_bool(_tesla36_val($state,'asleep'));
   $userPresent=_tesla36_bool(_tesla36_val($state,'user_present'));
   $parkingBrake=_tesla36_bool(_tesla36_val($state,'parking_brake'));
+  $vehicleConnected=_tesla36_bool(_tesla36_val($state,'ble_connection'));
   $ble=_tesla36_val($state,'ble_signal');
   $wifi=_tesla36_val($state,'wifi_signal');
   $lastCommand=_tesla36_state($state,'last_command');
@@ -399,6 +402,7 @@ if($E){
     'asleep'=>$asleep,
     'user_present'=>$userPresent,
     'parking_brake'=>$parkingBrake,
+    'vehicle_connected'=>$vehicleConnected,
     'ble_signal'=>_tesla36_num($ble),
     'wifi_signal'=>_tesla36_num($wifi),
     'last_command'=>$lastCommand
@@ -431,6 +435,7 @@ if($E){
   $set(27,$ble);
   $set(28,$wifi);
   $set(29,$lastCommand);
+  $set(31,$vehicleConnected);
 
   if(count($errors)==0){
     $set(1,1);
