@@ -6,6 +6,8 @@
 **Importdatei:** [`19100834_lbs.php`](../../LBS/19100834/19100834_lbs.php)  
 **Beschreibung:** FriWa-Zählerstand auf Zirkulation und vier Kanäle verteilen.
 
+**Bild online:** https://raw.githubusercontent.com/x3muha/edomi-lbs/main/docs/images/19100834.png
+
 ## Hilfe
 
 Version: 1.0

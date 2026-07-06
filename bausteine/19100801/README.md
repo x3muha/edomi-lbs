@@ -6,6 +6,8 @@
 **Importdatei:** [`19100801_lbs.php`](../../LBS/19100801/19100801_lbs.php)  
 **Beschreibung:** P-Regler für Soll-/Istwert, Hysterese und Stellwertkorrektur.
 
+**Bild online:** https://raw.githubusercontent.com/x3muha/edomi-lbs/main/docs/images/19100801.png
+
 ## Hilfe
 
 Version: 1.0

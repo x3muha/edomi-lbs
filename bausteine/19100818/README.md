@@ -6,6 +6,8 @@
 **Importdatei:** [`19100818_lbs.php`](../../LBS/19100818/19100818_lbs.php)  
 **Beschreibung:** Sendet model + power_w per POST an cFos set_ajax_meter.
 
+**Bild online:** https://raw.githubusercontent.com/x3muha/edomi-lbs/main/docs/images/19100818.png
+
 ## Hilfe
 
 Version: 1.0

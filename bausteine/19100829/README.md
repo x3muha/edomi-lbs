@@ -6,6 +6,8 @@
 **Importdatei:** [`19100829_lbs.php`](../../LBS/19100829/19100829_lbs.php)  
 **Beschreibung:** Schreibt bis zu vier als Switch/Bool deklarierte cFos Charging-Manager-Variablen.
 
+**Bild online:** https://raw.githubusercontent.com/x3muha/edomi-lbs/main/docs/images/19100829.png
+
 ## Hilfe
 
 Version: 1.0

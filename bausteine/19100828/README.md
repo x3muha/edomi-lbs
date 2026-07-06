@@ -6,6 +6,8 @@
 **Importdatei:** [`19100828_lbs.php`](../../LBS/19100828/19100828_lbs.php)  
 **Beschreibung:** Liest bis zu vier Charging-Manager-Variablen aus cFos.
 
+**Bild online:** https://raw.githubusercontent.com/x3muha/edomi-lbs/main/docs/images/19100828.png
+
 ## Hilfe
 
 Version: 1.0

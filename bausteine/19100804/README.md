@@ -6,6 +6,8 @@
 **Importdatei:** [`19100804_lbs.php`](../../LBS/19100804/19100804_lbs.php)  
 **Beschreibung:** Zyklischer Reader für cFos /cnf?cmd=get_dev_info.
 
+**Bild online:** https://raw.githubusercontent.com/x3muha/edomi-lbs/main/docs/images/19100804.png
+
 ## Hilfe
 
 Version: 1.0

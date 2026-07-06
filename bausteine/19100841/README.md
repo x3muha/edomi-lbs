@@ -6,6 +6,8 @@
 **Importdatei:** [`19100841_lbs.php`](../../LBS/19100841/19100841_lbs.php)  
 **Beschreibung:** Hoymiles HMS/HMT Wechselrichter mit integrierter WLAN-DTU lokal ueber TCP/Protobuf lesen.
 
+**Bild online:** https://raw.githubusercontent.com/x3muha/edomi-lbs/main/docs/images/19100841.png
+
 ## Hilfe
 
 Version: 1.0

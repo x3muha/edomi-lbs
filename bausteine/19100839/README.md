@@ -6,6 +6,8 @@
 **Importdatei:** [`19100839_lbs.php`](../../LBS/19100839/19100839_lbs.php)  
 **Beschreibung:** ESPHome Midea X3 Klima-, Fresh- und Clean-Status/Steuerung.
 
+**Bild online:** https://raw.githubusercontent.com/x3muha/edomi-lbs/main/docs/images/19100839.png
+
 ## Hilfe
 
 Version: 1.0

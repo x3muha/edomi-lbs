@@ -6,6 +6,8 @@
 **Importdatei:** [`19100805_lbs.php`](../../LBS/19100805/19100805_lbs.php)  
 **Beschreibung:** Dekodiert eine einzelne Wallbox aus dem Reader-JSON von 19100804.
 
+**Bild online:** https://raw.githubusercontent.com/x3muha/edomi-lbs/main/docs/images/19100805.png
+
 ## Hilfe
 
 Version: 1.0

@@ -6,6 +6,8 @@
 **Importdatei:** [`19100840_lbs.php`](../../LBS/19100840/19100840_lbs.php)  
 **Beschreibung:** KNX DPT 20.105 HVAC Control Mode zwischen DPT-Wert und 1/0-Modusobjekten mappen.
 
+**Bild online:** https://raw.githubusercontent.com/x3muha/edomi-lbs/main/docs/images/19100840.png
+
 ## Hilfe
 
 Version: 1.0

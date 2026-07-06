@@ -6,6 +6,8 @@
 **Importdatei:** [`19100836_lbs.php`](../../LBS/19100836/19100836_lbs.php)  
 **Beschreibung:** ESPHome Tesla BLE Status lesen und zentrale Steuerbefehle senden.
 
+**Bild online:** https://raw.githubusercontent.com/x3muha/edomi-lbs/main/docs/images/19100836.png
+
 ## Hilfe
 
 Version: 2.0

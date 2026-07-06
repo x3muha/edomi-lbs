@@ -6,6 +6,8 @@
 **Importdatei:** [`19100821_lbs.php`](../../LBS/19100821/19100821_lbs.php)  
 **Beschreibung:** Sendet vier cFos-Zähler mit gemeinsamer Host/User/Pass-Konfiguration.
 
+**Bild online:** https://raw.githubusercontent.com/x3muha/edomi-lbs/main/docs/images/19100821.png
+
 ## Hilfe
 
 Version: 1.0
