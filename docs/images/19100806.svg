@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="695" height="1086" viewBox="0 0 695 1086">
+<rect x="0" y="0" width="695" height="1086" rx="0" fill="#f6f6f6" stroke="none"/>
+<rect x="12" y="12" width="671" height="1052" rx="3" fill="#797979" stroke="none"/>
+<rect x="13" y="13" width="669" height="28" rx="3" fill="#ffffff" stroke="none"/>
+<text x="20" y="30" fill="#000000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12">SolarAssistant Decoder</text>
+<text x="675" y="30" fill="#707070" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">19100806</text>
+<rect x="621" y="17" width="35" height="16" rx="2" fill="#ff8000" stroke="none"/>
+<text x="639" y="29" fill="#000000" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9">EXEC</text>
+<rect x="13" y="40" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="55" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E1</text>
+<text x="72" y="55" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">IP/URL (z.B. http://192.168.1.50)</text>
+<rect x="315" y="40" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="342" y="55" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="623" y="55" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">OK</text>
+<text x="679" y="55" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A1 &gt;</text>
+<rect x="13" y="62" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="77" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E2</text>
+<text x="72" y="77" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">API-Pfad</text>
+<rect x="315" y="62" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="342" y="77" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10">/api...</text>
+<text x="623" y="77" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Fehlertext</text>
+<text x="679" y="77" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A2 &gt;</text>
+<rect x="13" y="84" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="99" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E3</text>
+<text x="72" y="99" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">User</text>
+<rect x="315" y="84" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="342" y="99" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="623" y="99" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Anzahl Datensaetze</text>
+<text x="679" y="99" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A3 &gt;</text>
+<rect x="13" y="106" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="121" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E4</text>
+<text x="72" y="121" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Passwort</text>
+<rect x="315" y="106" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="342" y="121" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="623" y="121" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">JSON komplett (normalisiert)</text>
+<text x="679" y="121" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A4 &gt;</text>
+<rect x="13" y="128" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="143" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E5</text>
+<text x="72" y="143" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Aktiv 1/0</text>
+<rect x="315" y="128" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="342" y="143" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="623" y="143" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">JSON Status-Gruppe</text>
+<text x="679" y="143" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A5 &gt;</text>
+<rect x="13" y="150" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="165" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E6</text>
+<text x="72" y="165" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Intervall Sekunden</text>
+<rect x="315" y="150" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="342" y="165" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="623" y="165" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">JSON System</text>
+<text x="679" y="165" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A6 &gt;</text>
+<rect x="13" y="172" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<rect x="13" y="194" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<rect x="13" y="216" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<rect x="13" y="238" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="623" y="253" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">total/pv_power | PV Leistung (W)</text>
+<text x="679" y="253" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A10 &gt;</text>
+<rect x="13" y="260" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="623" y="275" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">total/load_power | Lastleistung ge...</text>
+<text x="679" y="275" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A11 &gt;</text>
+<rect x="13" y="282" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="623" y="297" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">total/battery_power | Batterieleis...</text>
+<text x="679" y="297" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A12 &gt;</text>
+<rect x="13" y="304" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="623" y="319" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">total/grid_power | Netzleistung (W)</text>
+<text x="679" y="319" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A13 &gt;</text>
+<rect x="13" y="326" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="623" y="341" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">total/battery_state_of_charge | Ba...</text>
+<text x="679" y="341" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A14 &gt;</text>
+<rect x="13" y="348" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="623" y="363" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">total/battery_voltage | Batteriesp...</text>
+<text x="679" y="363" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A15 &gt;</text>
+<rect x="13" y="370" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="623" y="385" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">total/battery_current | Batteriest...</text>
+<text x="679" y="385" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A16 &gt;</text>
+<rect x="13" y="392" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="623" y="407" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">total/load_percentage | Lastanteil...</text>
+<text x="679" y="407" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A17 &gt;</text>
+<rect x="13" y="414" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="623" y="429" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">inverter_1/load_power | Lastleistu...</text>
+<text x="679" y="429" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A18 &gt;</text>
+<rect x="13" y="436" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="623" y="451" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">inverter_1/load_power_essential | ...</text>
+<text x="679" y="451" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A19 &gt;</text>
+<rect x="13" y="458" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="623" y="473" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">inverter_1/load_power_non-essentia...</text>
+<text x="679" y="473" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A20 &gt;</text>
+<rect x="13" y="480" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="623" y="495" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">inverter_1/ac_couple_pv_power | AC...</text>
+<text x="679" y="495" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A21 &gt;</text>
+<rect x="13" y="502" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="623" y="517" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">inverter_1/auxiliary_pv_power | Au...</text>
+<text x="679" y="517" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A22 &gt;</text>
+<rect x="13" y="524" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="623" y="539" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">inverter_1/max_solar_power | Max. ...</text>
+<text x="679" y="539" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A23 &gt;</text>
+<rect x="13" y="546" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="623" y="561" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">total/ac_output_voltage | AC Ausga...</text>
+<text x="679" y="561" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A24 &gt;</text>
+<rect x="13" y="568" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="623" y="583" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">total/capacity | Capacity (Ah)</text>
+<text x="679" y="583" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A25 &gt;</text>
+<rect x="13" y="590" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="623" y="605" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">total/ac_output_frequency | AC out...</text>
+<text x="679" y="605" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A26 &gt;</text>
+<rect x="13" y="612" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<rect x="13" y="634" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="649" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E28</text>
+<text x="72" y="649" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Set max_grid_charge_current (A)</text>
+<rect x="315" y="634" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="342" y="649" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="623" y="649" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">inverter_1/max_grid_charge_current...</text>
+<text x="679" y="649" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A28 &gt;</text>
+<rect x="13" y="656" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="671" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E29</text>
+<text x="72" y="671" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Set max_charge_current (A)</text>
+<rect x="315" y="656" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="342" y="671" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="623" y="671" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">inverter_1/max_charge_current | Ma...</text>
+<text x="679" y="671" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A29 &gt;</text>
+<rect x="13" y="678" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="693" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E30</text>
+<text x="72" y="693" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Set capacity_point_6 (%)</text>
+<rect x="315" y="678" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="342" y="693" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="623" y="693" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">inverter_1/capacity_point_6 | Capa...</text>
+<text x="679" y="693" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A30 &gt;</text>
+<rect x="13" y="700" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="715" fill="#a0a0a0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E31</text>
+<text x="72" y="715" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Set force_off_grid</text>
+<rect x="315" y="700" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="342" y="715" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="623" y="715" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">inverter_1/force_off_grid | Force ...</text>
+<text x="679" y="715" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A31 &gt;</text>
+<rect x="13" y="722" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<rect x="13" y="744" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="623" y="759" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">total/battery_energy_in | Battery ...</text>
+<text x="679" y="759" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A33 &gt;</text>
+<rect x="13" y="766" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="623" y="781" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">total/battery_energy_out | Battery...</text>
+<text x="679" y="781" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A34 &gt;</text>
+<rect x="13" y="788" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="623" y="803" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">total/battery_temperature | Batter...</text>
+<text x="679" y="803" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A35 &gt;</text>
+<rect x="13" y="810" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="623" y="825" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">total/grid_energy_in | Grid energy...</text>
+<text x="679" y="825" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A36 &gt;</text>
+<rect x="13" y="832" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="623" y="847" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">total/grid_energy_out | Grid energ...</text>
+<text x="679" y="847" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A37 &gt;</text>
+<rect x="13" y="854" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="623" y="869" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">total/grid_frequency | Grid freque...</text>
+<text x="679" y="869" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A38 &gt;</text>
+<rect x="13" y="876" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="623" y="891" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">total/grid_voltage | Grid voltage (V)</text>
+<text x="679" y="891" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A39 &gt;</text>
+<rect x="13" y="898" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="623" y="913" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">total/inverter_mode | Inverter mode</text>
+<text x="679" y="913" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A40 &gt;</text>
+<rect x="13" y="920" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="623" y="935" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">total/load_energy | Load energy (kWh)</text>
+<text x="679" y="935" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A41 &gt;</text>
+<rect x="13" y="942" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="623" y="957" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">total/pv_energy | PV energy (kWh)</text>
+<text x="679" y="957" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A42 &gt;</text>
+<rect x="13" y="964" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="623" y="979" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">system/site_id | Site ID</text>
+<text x="679" y="979" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A43 &gt;</text>
+<rect x="13" y="986" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="623" y="1001" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">system/software_version | Software...</text>
+<text x="679" y="1001" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A44 &gt;</text>
+<rect x="13" y="1008" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="623" y="1023" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">system/cpu_temperature | CPU tempe...</text>
+<text x="679" y="1023" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A45 &gt;</text>
+<rect x="13" y="1030" width="669" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="623" y="1045" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">system/free_storage | Free storage...</text>
+<text x="679" y="1045" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A46 &gt;</text>
+<text x="15" y="1070" fill="#606060" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="9">E:10 A:41 V:8</text>
+</svg>

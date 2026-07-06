@@ -9,6 +9,7 @@ Auswahl eigener EDOMI-Logikbausteine.
 | [19100801](bausteine/19100801/README.md) | [Universal P-Regler 1.0](bausteine/19100801/README.md) | P-Regler für Soll-/Istwert, Hysterese und Stellwertkorrektur. |
 | [19100804](bausteine/19100804/README.md) | [cFos HTTP Reader 1.0](bausteine/19100804/README.md) | Zyklischer Reader für cFos /cnf?cmd=get_dev_info. |
 | [19100805](bausteine/19100805/README.md) | [cFos Wallbox Decoder 1.0](bausteine/19100805/README.md) | Dekodiert eine einzelne Wallbox aus dem Reader-JSON von 19100804. |
+| [19100806](bausteine/19100806/README.md) | [SolarAssistant Decoder 2.1](bausteine/19100806/README.md) | Liest SolarAssistant per REST und schreibt ausgewaehlte Inverter-Einstellungen. |
 | [19100818](bausteine/19100818/README.md) | [cFos HTTP Zähler 1.0](bausteine/19100818/README.md) | Sendet model + power_w per POST an cFos set_ajax_meter. |
 | [19100821](bausteine/19100821/README.md) | [cFos HTTP Zähler 4fach 1.0](bausteine/19100821/README.md) | Sendet vier cFos-Zähler mit gemeinsamer Host/User/Pass-Konfiguration. |
 | [19100827](bausteine/19100827/README.md) | [cFos Variablen Writer 4fach 1.0](bausteine/19100827/README.md) | Schreibt bis zu vier Charging-Manager-Variablen in cFos. |

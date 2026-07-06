@@ -1,0 +1,241 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+.app1_elId {					/*LBS-ID im Titel*/
+	display:inline;
+	color:#909090;
+	padding-left:3px;
+	padding-right:3px;
+	vertical-align:top;
+}
+
+.app1_elHelp {					/*Hilfe-Link im Titel*/
+	display:inline;
+	color:#909090;
+	padding-left:3px;
+	padding-right:3px;
+	vertical-align:top;
+	border-left:1px dotted #a0a0a0;
+	cursor:pointer;
+}
+.app1_elHelp:hover {			/*Hilfe-Link: Hover*/
+	background:#000000;
+}
+
+.app1_elContainer {				/*LBS-Container*/
+	position:absolute;
+	background:#797979;
+	box-shadow:0 0 5px #404040;
+	cursor:pointer;	
+	border-radius:3px;
+	z-index:1;
+}
+
+.app1_elContainerLayer1 {		/*LBS-Container für Layer 1*/
+	position:absolute;
+	background:#797979;
+	cursor:pointer;
+	border-radius:3px;
+	z-index:1;
+}
+
+.app1_elDefault {				/*leere Zeile*/
+	height:12px;
+	border-bottom:1px solid transparent;
+}
+
+.app1_liveValue { 				/*Style für Live-Werte*/
+	padding-left:1px;
+	padding-right:1px;
+	border-radius:2px;
+	background:#e8e800;
+	color:#000000;
+}
+
+.app1_cellContent {				/*Container für Zellen-Inhalt (wegen Overflow)*/
+	font-size:10px;
+	line-height:12px;
+	height:12px;	/*### Zellenhöhe ist 15px: 12 + 1px Border + 2px cellSpacing*/
+}
+
+.app1_elTitel {					/*LBS-Titel*/
+	height:12px;
+	text-align:left;
+	overflow:hidden;
+	white-space:nowrap;
+	padding-left:3px;
+	color:#000000;
+	background:#ffffff;
+	border-bottom:1px solid #ffffff;
+}
+
+.app1_elTitel:hover {			/*LBS-Titel: Hover*/
+	-webkit-filter:contrast(0.5) brightness(1.5);
+}
+
+.app1_elInput {					/*Eingang: Name des Eingangs*/
+	height:12px;
+	text-align:left;
+	overflow:hidden;
+	white-space:nowrap;
+	color:#ffffff;
+	background:#303030;
+	border-bottom:1px solid #a0a0a0;
+}
+
+.app1_elInputKo {				/*Eingang: KO-Fahne*/
+	left:-52px;
+	line-height:14px;
+	font-size:10px;
+	margin-top:-1px;
+	width:60px;
+	height:14px;
+	border-radius:3px 0 0 3px;
+	text-align:right;
+	color:#000000;
+	background:#80ff00;
+}
+
+.app1_divKoTooltip {			/*Eingang: KO-Fahne: Tooltip*/
+	position:absolute;
+	z-index:1;
+	height:14px;
+	line-height:14px;
+	left:60px;
+	top:0px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-align:left;
+	padding-left:2px;
+	padding-right:2px;
+	color:#000000;
+	background:#80ff00;
+	font-size:10px;
+}
+
+.app1_elInputPin {				/*Eingang: Verbindungs-Pin*/
+	width:6px;
+	height:6px;
+	border-radius:2px 0px 0px 2px;
+	background:#e0e0e0;
+}
+
+.app1_elInputNum { 				/*Eingang: Pfeil und Eingangs-ID*/
+	color:#a0a0a0;
+	padding-left:2px;
+	padding-right:2px;
+	width:1px;
+	background:#303030;
+	border-bottom:1px solid #a0a0a0;
+}
+.app1_elInputNum.col0 {			/*Eingang: Default*/
+	color:#a0a0a0;
+}
+.app1_elInputNum.col1 {			/*Eingang: Trigger*/
+	color:#80e000;
+}
+.app1_elInputNum.col2 {			/*Eingang: Option*/
+	color:#e0e000;
+}
+.app1_elInputNum.col3 {			/*Eingang: Important*/
+	color:#ff8000;
+}
+
+.app1_elInputValue {			/*Eingang: Fixwert/Livewert*/
+	width:30px;
+	min-width:30px;
+	max-width:30px;
+	left:10px;
+	height:12px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-align:center;
+	color:#b0ff00;
+	background:#303030;
+	border-left:1px dotted #909090;
+	border-bottom:1px solid #a0a0a0;
+}
+
+.app1_divValueTooltip {			/*Eingang: Fixwert/Livewert: Tooltip*/
+	min-width:30px;
+	text-align:center;
+	z-index:1;
+	height:12px;
+	line-height:12px;
+	overflow:hidden;
+	white-space:nowrap;
+	color:#b0ff00;
+	background:#303030;
+	border:1px solid #303030;
+	font-size:10px;
+	margin-left:1px;
+}
+
+.app1_elOutput {				/*Ausgang*/
+	height:12px;
+	color:#ffffff;
+	text-align:right;
+	overflow:hidden;
+	white-space:nowrap;
+	padding-left:3px;
+	border-bottom:1px solid #a0a0a0;
+	width:1px;
+}
+
+.app1_elOutputPin {				/*Ausgang: Verbindungs-Pin*/
+	width:6px;
+	height:6px;
+	border-radius:0px 2px 2px 0px;
+	background:#e0e0e0;
+}
+
+.app1_elOutputNum { 			/*Ausgang: Pfeil und Ausgangs-ID*/
+	color:#d0d0d0;
+	padding-left:2px;
+	padding-right:2px;
+	width:1px;
+	text-align:right;
+	border-bottom:1px solid #a0a0a0;
+}
+
+.app1_divTitelInfo { 			/*Bemerkung (unterhalb des Bausteins)*/
+	display:table;
+	white-space:nowrap;
+	margin-top:3px;
+	width:100%;
+	min-height:5px;
+	text-align:left;
+	font-size:10px;
+	color:#3030ff;
+}
+
+.app1_divTitelInfo:hover { 		/*Bemerkung: Hover*/
+	background:#e0e0e0;
+}
+
+.app1_divTitelInfo2 { 			
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    padding: 8px;
+}
+.lbs-preview-wrap {
+    display: inline-block;
+}
+.app1_elContainer {
+    position: relative !important;
+    left: auto !important;
+    top: auto !important;
+}
+.app1_elHelp {
+    display: inline-block;
+}
+
+</style></head><body>
+<div class="lbs-preview-wrap"><table border="0" cellspacing="0" cellpadding="1" class="app1_elContainer" style="position:relative; box-shadow:0 0 5px #404040; pointer-events:none;"><tr><td colspan="5" class="app1_elTitel"><div class="app1_cellContent" style="width:100%;"><table border="0" cellpadding="0" cellspacing="0" style="width:100%; table-layout:auto;"><tr><td>SolarAssistant Decoder</td><td align="right"><span class="app1_elId">19100806</span><span class="app1_elHelp">?</span></td></tr></table></div></td></tr><tr><td class="app1_elInputNum col0"><div class="app1_cellContent">&#x25B8;&nbsp;E1</div></td><td class="app1_elInput"><div class="app1_cellContent">IP/URL (z.B. http://192.168.1.50)</div></td><td class="app1_elInputValue"><div class="app1_cellContent"></div></td><td class="app1_elOutput"><div class="app1_cellContent">OK</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A1&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elInputNum col0"><div class="app1_cellContent">&#x25B8;&nbsp;E2</div></td><td class="app1_elInput"><div class="app1_cellContent">API-Pfad</div></td><td class="app1_elInputValue"><div class="app1_cellContent">/api/v1/metrics</div></td><td class="app1_elOutput"><div class="app1_cellContent">Fehlertext</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A2&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elInputNum col0"><div class="app1_cellContent">&#x25B8;&nbsp;E3</div></td><td class="app1_elInput"><div class="app1_cellContent">User</div></td><td class="app1_elInputValue"><div class="app1_cellContent"></div></td><td class="app1_elOutput"><div class="app1_cellContent">Anzahl Datensaetze</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A3&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elInputNum col0"><div class="app1_cellContent">&#x25B8;&nbsp;E4</div></td><td class="app1_elInput"><div class="app1_cellContent">Passwort</div></td><td class="app1_elInputValue"><div class="app1_cellContent"></div></td><td class="app1_elOutput"><div class="app1_cellContent">JSON komplett (normalisiert)</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A4&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elInputNum col0"><div class="app1_cellContent">&#x25B8;&nbsp;E5</div></td><td class="app1_elInput"><div class="app1_cellContent">Aktiv 1/0</div></td><td class="app1_elInputValue"><div class="app1_cellContent"></div></td><td class="app1_elOutput"><div class="app1_cellContent">JSON Status-Gruppe</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A5&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elInputNum col0"><div class="app1_cellContent">&#x25B8;&nbsp;E6</div></td><td class="app1_elInput"><div class="app1_cellContent">Intervall Sekunden</div></td><td class="app1_elInputValue"><div class="app1_cellContent"></div></td><td class="app1_elOutput"><div class="app1_cellContent">JSON System</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A6&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elDefault" colspan="2"></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elDefault" colspan="2"></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elDefault" colspan="2"></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elOutput"><div class="app1_cellContent">total/pv_power | PV Leistung (W)</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A10&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elOutput"><div class="app1_cellContent">total/load_power | Lastleistung gesamt (W)</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A11&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elOutput"><div class="app1_cellContent">total/battery_power | Batterieleistung (W)</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A12&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elOutput"><div class="app1_cellContent">total/grid_power | Netzleistung (W)</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A13&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elOutput"><div class="app1_cellContent">total/battery_state_of_charge | Batterie SoC (%)</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A14&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elOutput"><div class="app1_cellContent">total/battery_voltage | Batteriespannung (V)</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A15&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elOutput"><div class="app1_cellContent">total/battery_current | Batteriestrom (A)</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A16&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elOutput"><div class="app1_cellContent">total/load_percentage | Lastanteil (%)</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A17&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elOutput"><div class="app1_cellContent">inverter_1/load_power | Lastleistung Inverter (W)</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A18&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elOutput"><div class="app1_cellContent">inverter_1/load_power_essential | Lastleistung Essential (W)</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A19&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elOutput"><div class="app1_cellContent">inverter_1/load_power_non-essential | Lastleistung Non-Essential (W)</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A20&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elOutput"><div class="app1_cellContent">inverter_1/ac_couple_pv_power | AC-Coupled PV Leistung (W)</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A21&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elOutput"><div class="app1_cellContent">inverter_1/auxiliary_pv_power | Auxiliary PV Leistung (W)</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A22&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elOutput"><div class="app1_cellContent">inverter_1/max_solar_power | Max. Solarleistung (W)</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A23&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elOutput"><div class="app1_cellContent">total/ac_output_voltage | AC Ausgangsspannung (V)</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A24&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elOutput"><div class="app1_cellContent">total/capacity | Capacity (Ah)</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A25&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elOutput"><div class="app1_cellContent">total/ac_output_frequency | AC output frequency (Hz)</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A26&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elDefault" colspan="2"></td></tr><tr><td class="app1_elInputNum col0"><div class="app1_cellContent">&#x25B8;&nbsp;E28</div></td><td class="app1_elInput"><div class="app1_cellContent">Set max_grid_charge_current (A)</div></td><td class="app1_elInputValue"><div class="app1_cellContent"></div></td><td class="app1_elOutput"><div class="app1_cellContent">inverter_1/max_grid_charge_current | Max grid charge current (A)</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A28&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elInputNum col0"><div class="app1_cellContent">&#x25B8;&nbsp;E29</div></td><td class="app1_elInput"><div class="app1_cellContent">Set max_charge_current (A)</div></td><td class="app1_elInputValue"><div class="app1_cellContent"></div></td><td class="app1_elOutput"><div class="app1_cellContent">inverter_1/max_charge_current | Max charge current (A)</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A29&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elInputNum col0"><div class="app1_cellContent">&#x25B8;&nbsp;E30</div></td><td class="app1_elInput"><div class="app1_cellContent">Set capacity_point_6 (%)</div></td><td class="app1_elInputValue"><div class="app1_cellContent"></div></td><td class="app1_elOutput"><div class="app1_cellContent">inverter_1/capacity_point_6 | Capacity point 6 (%)</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A30&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elInputNum col0"><div class="app1_cellContent">&#x25B8;&nbsp;E31</div></td><td class="app1_elInput"><div class="app1_cellContent">Set force_off_grid</div></td><td class="app1_elInputValue"><div class="app1_cellContent"></div></td><td class="app1_elOutput"><div class="app1_cellContent">inverter_1/force_off_grid | Force off grid</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A31&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elDefault" colspan="2"></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elOutput"><div class="app1_cellContent">total/battery_energy_in | Battery energy in (kWh)</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A33&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elOutput"><div class="app1_cellContent">total/battery_energy_out | Battery energy out (kWh)</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A34&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elOutput"><div class="app1_cellContent">total/battery_temperature | Battery temperature (°C)</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A35&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elOutput"><div class="app1_cellContent">total/grid_energy_in | Grid energy in (kWh)</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A36&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elOutput"><div class="app1_cellContent">total/grid_energy_out | Grid energy out (kWh)</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A37&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elOutput"><div class="app1_cellContent">total/grid_frequency | Grid frequency (Hz)</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A38&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elOutput"><div class="app1_cellContent">total/grid_voltage | Grid voltage (V)</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A39&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elOutput"><div class="app1_cellContent">total/inverter_mode | Inverter mode</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A40&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elOutput"><div class="app1_cellContent">total/load_energy | Load energy (kWh)</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A41&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elOutput"><div class="app1_cellContent">total/pv_energy | PV energy (kWh)</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A42&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elOutput"><div class="app1_cellContent">system/site_id | Site ID</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A43&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elOutput"><div class="app1_cellContent">system/software_version | Software version</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A44&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elOutput"><div class="app1_cellContent">system/cpu_temperature | CPU temperature (°C)</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A45&nbsp;&#x25B8;</div></td></tr><tr><td class="app1_elDefault" colspan="3"></td><td class="app1_elOutput"><div class="app1_cellContent">system/free_storage | Free storage (MB)</div></td><td class="app1_elOutputNum"><div class="app1_cellContent">A46&nbsp;&#x25B8;</div></td></tr></table><div class="app1_divTitelInfo">SolarAssistant Decoder</div></div>
+</body></html>
