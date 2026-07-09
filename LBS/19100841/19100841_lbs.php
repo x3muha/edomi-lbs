@@ -5,7 +5,7 @@
 
 [e#1 TRIGGER = Lesen/Refresh]
 [e#2 = Aktiv 1/0 #init=1]
-[e#3 = DTU IP-Adresse #init=10.0.0.100]
+[e#3 = DTU IP-Adresse #init=192.168.31.10]
 [e#4 = Anzahl DC-Strings #init=2]
 [e#5 = Timeout Sekunden #init=5]
 [e#6 = Zyklus Sekunden #init=0]
@@ -47,18 +47,17 @@ Version: 1.0
 Hoymiles DTUBI (19100841)
 
 Zweck:
-- Liest Hoymiles HMS/HMT Wechselrichter mit integrierter WLAN-DTU lokal ueber TCP/Protobuf.
+- Liest Hoymiles HMS/HMT Wechselrichter mit integrierter WLAN-DTU lokal über TCP/Protobuf.
 - Nutzt die Python-Bibliothek hoymiles-wifi auf dem EDOMI-Server.
 
 Voraussetzungen auf dem EDOMI-Server:
 - Python 3, bevorzugt python3.11 oder python3.
 - Python-Paket hoymiles-wifi, z.B. per pip install hoymiles-wifi.
-- Netzwerkzugriff vom EDOMI-Server zur DTU.
 
 Eingaenge:
 - E1: manueller Lese-Trigger.
 - E2: Aktiv 1/0.
-- E3: IP-Adresse der DTU, z.B. 10.0.0.66.
+- E3: IP-Adresse der DTU, z.B. 192.168.31.10.
 - E4: Anzahl DC-Strings, 1..4.
 - E5: Timeout in Sekunden.
 - E6: Zyklus in Sekunden. 0 = nur per Trigger, >0 = zyklisch lesen.
@@ -72,10 +71,6 @@ Ausgaenge:
 - A24: Produziert 1/0.
 - A25: Wirkungsgrad in Prozent.
 
-Hinweise:
-- Die DTUBI erlaubt normalerweise nur eine lokale TCP-Verbindung gleichzeitig.
-- Bei zu kurzem Zyklus kann die Hoymiles-App oder eine andere lokale Abfrage gestoert werden.
-- Ein Zyklus von 60 Sekunden oder groesser ist fuer produktive Anlagen sinnvoll.
 ###[/HELP]###
 
 ###[LBS]###
