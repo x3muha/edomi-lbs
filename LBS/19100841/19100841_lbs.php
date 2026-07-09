@@ -5,7 +5,7 @@
 
 [e#1 TRIGGER = Lesen/Refresh]
 [e#2 = Aktiv 1/0 #init=1]
-[e#3 = DTU IP-Adresse #init=192.168.31.10]
+[e#3 = DTU IP-Adresse]
 [e#4 = Anzahl DC-Strings #init=2]
 [e#5 = Timeout Sekunden #init=5]
 [e#6 = Zyklus Sekunden #init=0]
@@ -47,21 +47,21 @@ Version: 1.0
 Hoymiles DTUBI (19100841)
 
 Zweck:
-- Liest Hoymiles HMS/HMT Wechselrichter mit integrierter WLAN-DTU lokal über TCP/Protobuf.
-- Nutzt die Python-Bibliothek hoymiles-wifi auf dem EDOMI-Server.
+- Fragt Hoymiles HMS/HMT Wechselrichter mit integrierter WLAN-DTU lokal ab.
+- Stellt AC-, DC-, Ertrags- und Statuswerte direkt in EDOMI bereit.
 
-Voraussetzungen auf dem EDOMI-Server:
-- Python 3, bevorzugt python3.11 oder python3.
-- Python-Paket hoymiles-wifi, z.B. per pip install hoymiles-wifi.
+Voraussetzungen:
+- Netzwerkzugriff vom EDOMI-Server zur DTU.
+- Python 3 auf dem EDOMI-Server.
 
 Eingaenge:
 - E1: manueller Lese-Trigger.
 - E2: Aktiv 1/0.
-- E3: IP-Adresse der DTU, z.B. 192.168.31.10.
+- E3: IP-Adresse der DTU.
 - E4: Anzahl DC-Strings, 1..4.
 - E5: Timeout in Sekunden.
 - E6: Zyklus in Sekunden. 0 = nur per Trigger, >0 = zyklisch lesen.
-- E7: Debug 1/0, schreibt Details ins Custom-Log.
+- E7: Debug 1/0.
 
 Ausgaenge:
 - A1..A9: AC-/Ertrags-/Temperatur-/Statuswerte und DC-Gesamtleistung.
@@ -217,7 +217,7 @@ except Exception:
 try:
     from hoymiles_wifi.dtu import DTU
 except Exception as exc:
-    finish(False, "Python-Paket hoymiles-wifi fehlt oder ist nicht ladbar: %s" % exc)
+    finish(False, "Python-Abfrage nicht startklar: %s" % exc)
 
 def parse_new(resp):
     data = {

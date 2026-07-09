@@ -15,14 +15,12 @@ Version: 1.0
 Hoymiles DTUBI (19100841)
 
 Zweck:
-- Liest Hoymiles HMS/HMT Wechselrichter mit integrierter WLAN-DTU lokal ueber TCP/Protobuf.
-- Nutzt das Python-Paket `hoymiles-wifi` auf dem EDOMI-Server.
+- Fragt Hoymiles HMS/HMT Wechselrichter mit integrierter WLAN-DTU lokal ab.
+- Stellt AC-, DC-, Ertrags- und Statuswerte direkt in EDOMI bereit.
 
 Voraussetzungen:
-- Python 3 auf dem EDOMI-Server, bevorzugt `python3.11` oder `python3`.
-- Python-Paket `hoymiles-wifi`, z.B. `python3 -m pip install hoymiles-wifi`.
-- Projekt/Bibliothek: https://github.com/suaveolent/hoymiles-wifi
 - Netzwerkzugriff vom EDOMI-Server zur DTU.
+- Python 3 auf dem EDOMI-Server.
 
 Eingaenge:
 - E1: Lesen/Refresh Trigger.
@@ -50,6 +48,5 @@ Ausgaenge:
 - A25: Wirkungsgrad Prozent.
 
 Hinweise:
-- Der Baustein sucht intern `python3.11` oder `python3`.
 - Die DTUBI erlaubt normalerweise nur eine lokale TCP-Verbindung gleichzeitig.
 - Fuer produktive Anlagen ist ein Zyklus ab ca. 60 Sekunden sinnvoll.

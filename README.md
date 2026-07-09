@@ -27,4 +27,3 @@ Auswahl eigener EDOMI-Logikbausteine.
 
 - ESPHome Tesla BLE: https://github.com/yoziru/esphome-tesla-ble
 - Tesla BLE C++ Library: https://github.com/yoziru/tesla-ble
-- Hoymiles WiFi Python Library: https://github.com/suaveolent/hoymiles-wifi
