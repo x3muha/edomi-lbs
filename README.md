@@ -22,6 +22,7 @@ Auswahl eigener EDOMI-Logikbausteine.
 | [19100840](bausteine/19100840/README.md) | [KNX DPT 20.105 Mapper 1.0](bausteine/19100840/README.md) | KNX DPT 20.105 HVAC Control Mode zwischen DPT-Wert und 1/0-Modusobjekten mappen. |
 | [19100841](bausteine/19100841/README.md) | [Hoymiles DTUBI 1.0](bausteine/19100841/README.md) | Hoymiles HMS/HMT Wechselrichter mit integrierter WLAN-DTU lokal per TCP/Protobuf lesen. |
 | [19100842](bausteine/19100842/README.md) | [Wh Leistung Rechner 1.0](bausteine/19100842/README.md) | Berechnet aus einem fortlaufenden Wh-Zaehler die aktuelle Leistung in W. |
+| [19100844](bausteine/19100844/README.md) | [Remanent Relais 1/0 1.0](bausteine/19100844/README.md) | Remanenter 1/0-Schaltzustand mit einem Eingang und einem Statusausgang. |
 
 ## Externe Projekte
 

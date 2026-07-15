@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="466" height="96" viewBox="0 0 466 96">
+<rect x="0" y="0" width="466" height="96" rx="0" fill="#f6f6f6" stroke="none"/>
+<rect x="12" y="12" width="442" height="62" rx="3" fill="#797979" stroke="none"/>
+<rect x="13" y="13" width="440" height="28" rx="3" fill="#ffffff" stroke="none"/>
+<text x="20" y="30" fill="#000000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12">Remanent Relais 1/0 1.0</text>
+<text x="446" y="30" fill="#707070" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">19100844</text>
+<rect x="13" y="40" width="440" height="21" rx="0" fill="#303030" stroke="none"/>
+<text x="16" y="55" fill="#80e000" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">&gt; E1</text>
+<text x="72" y="55" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10">Schalten 1/0</text>
+<rect x="211" y="40" width="54" height="21" rx="0" fill="#303030" stroke="#505050"/>
+<text x="238" y="55" fill="#b0ff00" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10"></text>
+<text x="394" y="55" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">Status 1/0</text>
+<text x="450" y="55" fill="#d0d0d0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">A1 &gt;</text>
+<text x="15" y="80" fill="#606060" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="9">E:1 A:1 V:1</text>
+</svg>
